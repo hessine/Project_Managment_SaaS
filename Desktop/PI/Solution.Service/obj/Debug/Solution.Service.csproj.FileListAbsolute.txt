@@ -1,0 +1,56 @@
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Service\bin\Debug\Solution.Service.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Service\bin\Debug\Solution.Service.pdb
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Service\bin\Debug\Service.Pattern.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Service\bin\Debug\Solution.Data.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Service\bin\Debug\Solution.Domain.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Service\bin\Debug\EntityFramework.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Service\bin\Debug\Service.Pattern.pdb
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Service\bin\Debug\Solution.Data.pdb
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Service\bin\Debug\Solution.Domain.pdb
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Service\bin\Debug\EntityFramework.xml
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Service\obj\Debug\Solution.Service.csprojResolveAssemblyReference.cache
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Service\obj\Debug\Solution.Service.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Service\obj\Debug\Solution.Service.pdb
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Service\bin\Debug\Solution.Service.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Service\bin\Debug\Solution.Service.pdb
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Service\bin\Debug\Service.Pattern.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Service\bin\Debug\Solution.Data.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Service\bin\Debug\Solution.Domain.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Service\bin\Debug\EntityFramework.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Service\bin\Debug\Service.Pattern.pdb
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Service\bin\Debug\Solution.Data.pdb
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Service\bin\Debug\Solution.Data.dll.config
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Service\bin\Debug\Solution.Domain.pdb
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Service\bin\Debug\Solution.Domain.dll.config
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Service\bin\Debug\EntityFramework.xml
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Service\obj\Debug\Solution.Service.csprojAssemblyReference.cache
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Service\obj\Debug\Solution.Service.csproj.CoreCompileInputs.cache
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Service\obj\Debug\Solution.Service.csproj.CopyComplete
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Service\obj\Debug\Solution.Service.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Service\obj\Debug\Solution.Service.pdb
+C:\Users\Toshiba\Desktop\1\Solution.Service\bin\Debug\Solution.Service.dll
+C:\Users\Toshiba\Desktop\1\Solution.Service\bin\Debug\Solution.Service.pdb
+C:\Users\Toshiba\Desktop\1\Solution.Service\bin\Debug\Service.Pattern.dll
+C:\Users\Toshiba\Desktop\1\Solution.Service\bin\Debug\Solution.Data.dll
+C:\Users\Toshiba\Desktop\1\Solution.Service\bin\Debug\Solution.Domain.dll
+C:\Users\Toshiba\Desktop\1\Solution.Service\bin\Debug\EntityFramework.dll
+C:\Users\Toshiba\Desktop\1\Solution.Service\bin\Debug\Service.Pattern.pdb
+C:\Users\Toshiba\Desktop\1\Solution.Service\bin\Debug\Solution.Data.pdb
+C:\Users\Toshiba\Desktop\1\Solution.Service\bin\Debug\Solution.Domain.pdb
+C:\Users\Toshiba\Desktop\1\Solution.Service\bin\Debug\EntityFramework.xml
+C:\Users\Toshiba\Desktop\1\Solution.Service\obj\Debug\Solution.Service.csprojResolveAssemblyReference.cache
+C:\Users\Toshiba\Desktop\1\Solution.Service\obj\Debug\Solution.Service.dll
+C:\Users\Toshiba\Desktop\1\Solution.Service\obj\Debug\Solution.Service.pdb
+C:\Users\Toshiba\Desktop\PI\Solution.Service\bin\Debug\Solution.Service.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Service\bin\Debug\Solution.Service.pdb
+C:\Users\Toshiba\Desktop\PI\Solution.Service\bin\Debug\Service.Pattern.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Service\bin\Debug\Solution.Data.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Service\bin\Debug\Solution.Domain.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Service\bin\Debug\EntityFramework.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Service\bin\Debug\Service.Pattern.pdb
+C:\Users\Toshiba\Desktop\PI\Solution.Service\bin\Debug\Solution.Data.pdb
+C:\Users\Toshiba\Desktop\PI\Solution.Service\bin\Debug\Solution.Domain.pdb
+C:\Users\Toshiba\Desktop\PI\Solution.Service\bin\Debug\EntityFramework.xml
+C:\Users\Toshiba\Desktop\PI\Solution.Service\obj\Debug\Solution.Service.csprojResolveAssemblyReference.cache
+C:\Users\Toshiba\Desktop\PI\Solution.Service\obj\Debug\Solution.Service.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Service\obj\Debug\Solution.Service.pdb

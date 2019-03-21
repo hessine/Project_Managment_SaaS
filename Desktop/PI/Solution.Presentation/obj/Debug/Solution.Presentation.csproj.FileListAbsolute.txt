@@ -1,0 +1,364 @@
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\ApplicationInsights.config
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\roslyn\csc.exe
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\roslyn\System.Collections.Immutable.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\roslyn\vbc.exe
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\roslyn\VBCSCompiler.exe
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\roslyn\VBCSCompiler.exe.config
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Solution.Presentation.dll.config
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Solution.Presentation.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Solution.Presentation.pdb
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Antlr3.Runtime.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\EntityFramework.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\EntityFramework.SqlServer.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.AI.Web.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.AI.WindowsServer.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.ApplicationInsights.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.Owin.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.Owin.Security.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.Owin.Security.Google.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.Web.Infrastructure.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Newtonsoft.Json.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Owin.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Service.Pattern.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Solution.Domain.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Solution.Service.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\System.Web.Helpers.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\System.Web.Mvc.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\System.Web.Optimization.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\System.Web.Razor.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\System.Web.WebPages.Deployment.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\System.Web.WebPages.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\System.Web.WebPages.Razor.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\WebGrease.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Solution.Data.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Service.Pattern.pdb
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Solution.Domain.pdb
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Solution.Service.pdb
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.AI.Web.xml
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.AI.WindowsServer.xml
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.ApplicationInsights.xml
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\System.Web.Helpers.xml
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\System.Web.Mvc.xml
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\System.Web.Optimization.xml
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\System.Web.Razor.xml
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\System.Web.WebPages.xml
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\System.Web.WebPages.Deployment.xml
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\System.Web.WebPages.Razor.xml
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Antlr3.Runtime.pdb
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Newtonsoft.Json.xml
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\EntityFramework.xml
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\EntityFramework.SqlServer.xml
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.Owin.xml
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.Owin.Security.xml
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.Owin.Security.Google.xml
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\bin\Solution.Data.pdb
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\obj\Debug\Solution.Presentation.csprojResolveAssemblyReference.cache
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\obj\Debug\Solution.Presentation.dll
+c:\users\chaima\documents\visual studio 2015\Projects\Solution-4ArcTic-1819\Solution.Presentation\obj\Debug\Solution.Presentation.pdb
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\ApplicationInsights.config
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\roslyn\csc.exe
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\roslyn\vbc.exe
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\roslyn\VBCSCompiler.exe
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Solution.Presentation.dll.config
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Solution.Presentation.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Solution.Presentation.pdb
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Antlr3.Runtime.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\EntityFramework.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\EntityFramework.SqlServer.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.AI.Web.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.Owin.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.Owin.Security.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Newtonsoft.Json.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Owin.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Service.Pattern.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Solution.Domain.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Solution.Service.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\System.Web.Helpers.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\System.Web.Mvc.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\System.Web.Optimization.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\System.Web.Razor.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\System.Web.WebPages.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\System.Web.WebPages.Razor.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\WebGrease.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Solution.Data.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Service.Pattern.pdb
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Solution.Domain.pdb
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Solution.Domain.dll.config
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Solution.Service.pdb
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.AI.Web.xml
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\System.Web.Helpers.xml
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\System.Web.Mvc.xml
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\System.Web.Optimization.xml
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\System.Web.Razor.xml
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\System.Web.WebPages.xml
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\System.Web.WebPages.Razor.xml
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Antlr3.Runtime.pdb
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Newtonsoft.Json.xml
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\EntityFramework.xml
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\EntityFramework.SqlServer.xml
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.Owin.xml
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.Owin.Security.xml
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Solution.Data.pdb
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\bin\Solution.Data.dll.config
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\obj\Debug\Solution.Presentation.csprojAssemblyReference.cache
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\obj\Debug\Solution.Presentation.csproj.CoreCompileInputs.cache
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\obj\Debug\Solution.Presentation.csproj.CopyComplete
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\obj\Debug\Solution.Presentation.dll
+C:\Users\Med Zied\Desktop\psssst\1\Solution.Presentation\obj\Debug\Solution.Presentation.pdb
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\ApplicationInsights.config
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\roslyn\csc.exe
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\roslyn\vbc.exe
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\roslyn\VBCSCompiler.exe
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Solution.Presentation.dll.config
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Solution.Presentation.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Solution.Presentation.pdb
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Antlr3.Runtime.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\EntityFramework.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\EntityFramework.SqlServer.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.AI.Web.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.Owin.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.Owin.Security.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Newtonsoft.Json.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Owin.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Service.Pattern.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Solution.Domain.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Solution.Service.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\System.Web.Helpers.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\System.Web.Mvc.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\System.Web.Optimization.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\System.Web.Razor.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\System.Web.WebPages.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\System.Web.WebPages.Razor.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\WebGrease.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Solution.Data.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Service.Pattern.pdb
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Solution.Domain.pdb
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Solution.Service.pdb
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.AI.Web.xml
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\System.Web.Helpers.xml
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\System.Web.Mvc.xml
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\System.Web.Optimization.xml
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\System.Web.Razor.xml
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\System.Web.WebPages.xml
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\System.Web.WebPages.Razor.xml
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Antlr3.Runtime.pdb
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Newtonsoft.Json.xml
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\EntityFramework.xml
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\EntityFramework.SqlServer.xml
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.Owin.xml
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.Owin.Security.xml
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\bin\Solution.Data.pdb
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\obj\Debug\Solution.Presentation.csprojResolveAssemblyReference.cache
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\obj\Debug\Solution.Presentation.dll
+C:\Users\Toshiba\Desktop\1\Solution.Presentation\obj\Debug\Solution.Presentation.pdb
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\ApplicationInsights.config
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\roslyn\csc.exe
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\roslyn\vbc.exe
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\roslyn\VBCSCompiler.exe
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Solution.Presentation.dll.config
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Solution.Presentation.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Solution.Presentation.pdb
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Antlr3.Runtime.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\EntityFramework.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\EntityFramework.SqlServer.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.AI.Web.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.Owin.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.Owin.Security.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Newtonsoft.Json.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Owin.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Service.Pattern.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Solution.Domain.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Solution.Service.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\System.Web.Helpers.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\System.Web.Mvc.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\System.Web.Optimization.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\System.Web.Razor.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\System.Web.WebPages.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\System.Web.WebPages.Razor.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\WebGrease.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Solution.Data.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Service.Pattern.pdb
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Solution.Domain.pdb
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Solution.Service.pdb
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.AI.Web.xml
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\System.Web.Helpers.xml
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\System.Web.Mvc.xml
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\System.Web.Optimization.xml
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\System.Web.Razor.xml
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\System.Web.WebPages.xml
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\System.Web.WebPages.Razor.xml
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Antlr3.Runtime.pdb
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Newtonsoft.Json.xml
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\EntityFramework.xml
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\EntityFramework.SqlServer.xml
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.Owin.xml
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.Owin.Security.xml
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\bin\Solution.Data.pdb
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\obj\Debug\Solution.Presentation.csprojResolveAssemblyReference.cache
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\obj\Debug\Solution.Presentation.dll
+C:\Users\Toshiba\Desktop\PI\Solution.Presentation\obj\Debug\Solution.Presentation.pdb
