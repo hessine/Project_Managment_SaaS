@@ -169,3 +169,6 @@ C:\Users\thinkpad\Source\Repos\PI-Saas-4Arctic1\PMTool-SaaS\obj\Debug\PMTool-Saa
 C:\Users\thinkpad\Source\Repos\PI-Saas-4Arctic1\PMTool-SaaS\obj\Debug\PMTool-SaaS.dll
 C:\Users\thinkpad\Source\Repos\PI-Saas-4Arctic1\PMTool-SaaS\obj\Debug\PMTool-SaaS.pdb
 C:\Users\thinkpad\source\repos\PI-Saas-4Arctic1\PMTool-SaaS\obj\Debug\PMTool_SaaS.Migrations.ToDo1.resources
+C:\Users\thinkpad\source\repos\PI-Saas-4Arctic1\PMTool-SaaS\obj\Debug\PMTool_SaaS.Migrations.ToDo2.resources
+C:\Users\thinkpad\source\repos\PI-Saas-4Arctic1\PMTool-SaaS\obj\Debug\PMTool_SaaS.Migrations.ToDo3.resources
+C:\Users\thinkpad\source\repos\PI-Saas-4Arctic1\PMTool-SaaS\obj\Debug\PMTool_SaaS.Migrations.Project.resources

@@ -14,10 +14,13 @@ namespace PMTool_SaaS.Controllers
     {
         private ApplicationDbContext db = new ApplicationDbContext();
 
+        public object Affichage { get; private set; }
+
         // GET: ToDoes
         public ActionResult Index()
         {
             return View(db.ToDos.ToList());
+            //return PartialView("index");
         }
 
         // GET: ToDoes/Details/5
