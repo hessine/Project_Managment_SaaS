@@ -58,9 +58,9 @@
     <Compile Include="Infrastrures\IUnitOfWork.cs" />
     <Compile Include="Infrastrures\RepositoryBase.cs" />
     <Compile Include="Infrastrures\UnitOfWork.cs" />
-    <Compile Include="Migrations\201903062313188_kk.cs" />
-    <Compile Include="Migrations\201903062313188_kk.Designer.cs">
-      <DependentUpon>201903062313188_kk.cs</DependentUpon>
+    <Compile Include="Migrations\201903241634425_firstMig.cs" />
+    <Compile Include="Migrations\201903241634425_firstMig.Designer.cs">
+      <DependentUpon>201903241634425_firstMig.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MyContext.cs" />
@@ -77,8 +77,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201903062313188_kk.resx">
-      <DependentUpon>201903062313188_kk.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201903241634425_firstMig.resx">
+      <DependentUpon>201903241634425_firstMig.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

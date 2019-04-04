@@ -26,6 +26,17 @@ namespace Solution.Presentation
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            #region Template Design
+
+            bundles.Add(new ScriptBundle("~/template/js").Include(
+                        "~/Scripts/jquery.validate*"));
+
+
+            bundles.Add(new StyleBundle("~/template/css").Include(
+                      "~/Content/bootstrap.css",
+                      "~/Content/site.css"));
+            #endregion
         }
     }
 }

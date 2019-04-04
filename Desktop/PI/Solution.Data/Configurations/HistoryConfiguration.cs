@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace Solution.Data.Configurations
 {
-    class HistoryConfiguration : EntityTypeConfiguration<History>
+    public class HistoryConfiguration : EntityTypeConfiguration<History>
     {
         public HistoryConfiguration()
         {
-            HasRequired(f => f.task).WithMany(p => p.Histories)
+            HasRequired(f => f.taskPM).WithMany(p => p.Histories)
                 .HasForeignKey(f => f.TaskId)
                 .WillCascadeOnDelete(true);
         }

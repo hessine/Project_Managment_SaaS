@@ -1,0 +1,348 @@
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\obj\Debug\IdentityV2.Presentation.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\csc.exe
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\vbc.exe
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\VBCSCompiler.exe
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.Presentation.dll.config
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.Presentation.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.Presentation.pdb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\Antlr3.Runtime.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\EntityFramework.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\EntityFramework.SqlServer.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.Domain.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.Service.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.ServicePattern.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\Newtonsoft.Json.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\Owin.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Net.Http.Formatting.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Helpers.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Http.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Http.WebHost.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Mvc.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Optimization.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Razor.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.WebPages.Deployment.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.WebPages.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.WebPages.Razor.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\WebGrease.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.Domain.pdb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.ServicePattern.pdb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.Service.pdb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Helpers.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Mvc.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Optimization.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Razor.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.WebPages.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.WebPages.Deployment.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.WebPages.Razor.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\Antlr3.Runtime.pdb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\Newtonsoft.Json.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Net.Http.Formatting.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Http.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Http.WebHost.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\EntityFramework.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\EntityFramework.SqlServer.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\obj\Debug\IdentityV2.Presentation.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\obj\Debug\IdentityV2.Presentation.pdb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.Data.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.Data.pdb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\Stripe.net.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Collections.Immutable.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\Stripe.net.pdb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Presentation\bin\Stripe.net.xml
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\csc.exe
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\vbc.exe
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\VBCSCompiler.exe
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.Presentation.dll.config
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.Presentation.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.Presentation.pdb
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\Antlr3.Runtime.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\EntityFramework.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\EntityFramework.SqlServer.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.Data.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.Domain.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.Service.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.ServicePattern.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\Newtonsoft.Json.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\Owin.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\Stripe.net.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Collections.Immutable.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Net.Http.Formatting.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Helpers.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Http.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Http.WebHost.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Mvc.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Optimization.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Razor.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.WebPages.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.WebPages.Razor.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\WebGrease.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.Data.pdb
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.Domain.pdb
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.ServicePattern.pdb
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.Service.pdb
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\Newtonsoft.Json.xml
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\Stripe.net.pdb
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\Stripe.net.xml
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Helpers.xml
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Mvc.xml
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Optimization.xml
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Razor.xml
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.WebPages.xml
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.WebPages.Razor.xml
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\Antlr3.Runtime.pdb
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Net.Http.Formatting.xml
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Http.xml
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Http.WebHost.xml
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\EntityFramework.xml
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\EntityFramework.SqlServer.xml
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.xml
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.xml
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\obj\Debug\IdentityV2.Presentation.csprojResolveAssemblyReference.cache
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\obj\Debug\IdentityV2.Presentation.dll
+C:\Users\Toshiba\Desktop\IdentityV2.Presentation\IdentityV2.Presentation\IdentityV2.Presentation\obj\Debug\IdentityV2.Presentation.pdb
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\csc.exe
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\vbc.exe
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\VBCSCompiler.exe
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.Presentation.dll.config
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.Presentation.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.Presentation.pdb
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\Antlr3.Runtime.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\EntityFramework.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\EntityFramework.SqlServer.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.Data.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.Domain.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.Service.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.ServicePattern.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\Newtonsoft.Json.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\Owin.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\Stripe.net.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Collections.Immutable.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Net.Http.Formatting.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Helpers.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Http.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Http.WebHost.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Mvc.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Optimization.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Razor.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.WebPages.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.WebPages.Razor.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\WebGrease.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.Data.pdb
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.Domain.pdb
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.ServicePattern.pdb
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.Service.pdb
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\Newtonsoft.Json.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\Stripe.net.pdb
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\Stripe.net.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Helpers.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Mvc.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Optimization.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Razor.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.WebPages.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.WebPages.Razor.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\Antlr3.Runtime.pdb
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Net.Http.Formatting.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Http.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Http.WebHost.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\EntityFramework.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\EntityFramework.SqlServer.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\obj\Debug\IdentityV2.Presentation.csprojResolveAssemblyReference.cache
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\obj\Debug\IdentityV2.Presentation.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\IdentityV2.Presentation\IdentityV2.Presentation\obj\Debug\IdentityV2.Presentation.pdb
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\csc.exe
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\vbc.exe
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\VBCSCompiler.exe
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.Presentation.dll.config
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.Presentation.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.Presentation.pdb
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\Antlr3.Runtime.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\EntityFramework.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\EntityFramework.SqlServer.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.Data.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.Domain.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.Service.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.ServicePattern.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\Newtonsoft.Json.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\Owin.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\Stripe.net.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Collections.Immutable.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Net.Http.Formatting.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Helpers.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Http.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Http.WebHost.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Mvc.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Optimization.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Razor.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.WebPages.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.WebPages.Razor.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\WebGrease.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.Data.pdb
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.Domain.pdb
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.ServicePattern.pdb
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\IdentityV2.Service.pdb
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\Newtonsoft.Json.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\Stripe.net.pdb
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\Stripe.net.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Helpers.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Mvc.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Optimization.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Razor.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.WebPages.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.WebPages.Razor.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\Antlr3.Runtime.pdb
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Net.Http.Formatting.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Http.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\System.Web.Http.WebHost.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\EntityFramework.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\EntityFramework.SqlServer.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\obj\Debug\IdentityV2.Presentation.csprojResolveAssemblyReference.cache
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\obj\Debug\IdentityV2.Presentation.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Presentation\obj\Debug\IdentityV2.Presentation.pdb
