@@ -14,6 +14,10 @@ namespace IdentityV2.Service
         static IDataBaseFactory DBF = new DataBaseFactory();
         static IUnitOfWork UOW = new UnitOfWork(DBF);
 
+        public UserService() : base(UOW)
+        {
+        }
+
         public UserService(IUnitOfWork UOW) : base(UserService.UOW)
         {
 

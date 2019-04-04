@@ -28,11 +28,20 @@ namespace IdentityV2.Presentation.Models
         public String Name { get; set; }
         public String Status { get; set; }
 
-        [Display(Name = "Project Name")]
+       // [Display(Name = "Project Name")]
 
-        public int ProjectId { get; set; }
-        public IEnumerable<SelectListItem> Projects { get; set; }
-        public string ProjectName { get; set; }
+       // public int ProjectId { get; set; }
+
+        [Display(Name = "User Name")]
+        public int UserId { get; set; }
+
+
+       // public IEnumerable<SelectListItem> Projects { get; set; }
+       // public string ProjectName { get; set; }
+
+
+        public IEnumerable<SelectListItem> Users { get; set; }
+        public string UserName { get; set; }
 
     }
 }

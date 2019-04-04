@@ -6,25 +6,47 @@ using System.Web;
 using System.Web.Mvc;
 using IdentityV2.Domain.Entities;
 using IdentityV2.Presentation.Models;
+using Microsoft.AspNet.Identity.Owin;
+using System.Threading.Tasks;
+using Microsoft.AspNet.Identity;
 
 namespace  IdentityV2.Presentation.Controllers
 
 {
     public class TaskPMController : Controller
     {
+/*ouss
+        private ApplicationUserManager _userManager;
+        public ApplicationUserManager UserManager
+        {
+            get
+            {
+                return _userManager ?? HttpContext.GetOwinContext().GetUserManager<ApplicationUserManager>();
+            }
+            private set
+            {
+                _userManager = value;
+            }
+        }*/
 
 
         ITaskPMService MyTaskService;
         TaskPMService ps = new TaskPMService();
 
-
+        IUserService MyUserService;
         IServiceProject MyProjectService;
+
+      /*  public TaskPMController(ApplicationUserManager userManager)
+        {
+            UserManager = userManager;
+        }*/
 
 
         public TaskPMController()
         {
             MyTaskService = new TaskPMService();
             MyProjectService = new ServiceProject();
+            MyUserService = new UserService();
         }
 
 
@@ -34,7 +56,11 @@ namespace  IdentityV2.Presentation.Controllers
         // GET: TaskPM
         public ActionResult Index(string searchString)
         {
-            List<TaskPMVM> lists = new List<TaskPMVM>();
+                  //  public Task<ActionResult> Index(string searchString)
+
+           // var user = UserManager.FindByIdAsync(System.Web.HttpContext.Current.User.Identity.GetUserId());
+           // user.Id
+        List<TaskPMVM> lists = new List<TaskPMVM>();
             foreach (var p in MyTaskService.SearchTasks(searchString))
             {
                 TaskPMVM pvm = new TaskPMVM();
@@ -44,9 +70,10 @@ namespace  IdentityV2.Presentation.Controllers
                 pvm.EndDate = p.EndDate;
                 pvm.Status = p.Status;
                 pvm.DeadLine = p.DeadLine;
-                pvm.ProjectId = p.ProjectId;
-               pvm.ProjectName = MyProjectService.GetById(p.ProjectId).Name;
+             //   pvm.ProjectId = p.ProjectId;
 
+            //   pvm.ProjectName = MyProjectService.GetById(p.ProjectId).Name;
+               // pvm.UserId = p.UserId;
                 lists.Add(pvm);
 
             }
@@ -68,7 +95,7 @@ namespace  IdentityV2.Presentation.Controllers
             pvm.StartDate = p.StartDate;
             pvm.DeadLine = p.DeadLine;
             pvm.Status = p.Status;
-            pvm.ProjectName = MyProjectService.GetById(p.ProjectId).Name;
+          //  pvm.ProjectName = MyProjectService.GetById(p.ProjectId).Name;
 
 
             //pvm.ProjectSkills = p.ProjectSkills;
@@ -82,8 +109,13 @@ namespace  IdentityV2.Presentation.Controllers
         // GET: TaskPM/Create
         public ActionResult Create()
         {
-            var MyProjects = MyProjectService.GetMany();
-            ViewBag.ListProjects = new SelectList(MyProjects, "ProjectId", "Name");
+          //  var MyProjects = MyProjectService.GetMany();
+           var  MyUsers = MyUserService.GetMany();
+
+            ViewBag.ListUsers = new SelectList(MyUsers, "UserId", "FirstName");
+
+
+           // ViewBag.ListProjects = new SelectList(MyProjects, "ProjectId", "Name");
             //viewbag :variable pour tronsporter les données du controller lil vue 
             return View();
         }
@@ -101,11 +133,13 @@ namespace  IdentityV2.Presentation.Controllers
                 EndDate = taskVM.EndDate,
                 StartDate = taskVM.StartDate,
                 Status = " to-do",
-                 ProjectId = taskVM.ProjectId
+                // ProjectId = taskVM.ProjectId,
+                   UserId = taskVM.UserId,
 
 
 
-            };
+
+        };
         MyTaskService.Add(t1);
             MyTaskService.Commit();
 

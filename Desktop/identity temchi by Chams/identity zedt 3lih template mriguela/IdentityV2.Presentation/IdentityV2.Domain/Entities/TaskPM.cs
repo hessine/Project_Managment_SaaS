@@ -23,8 +23,13 @@ namespace IdentityV2.Domain.Entities
 
 
         public int ProjectId { get; set; }
-        [ForeignKey("ProjectId")]
-       // public virtual Project Project { get; set; }
+      //  [ForeignKey("ProjectId")]
+
+        public int UserId { get; set; }
+        //[ForeignKey("UserId")]
+         public virtual Project Project { get; set; }
+        public virtual User User { get; set; }
+
         public virtual ICollection<History> Histories { get; set; }
 
     }

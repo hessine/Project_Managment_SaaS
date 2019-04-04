@@ -33,5 +33,8 @@ namespace IdentityV2.Domain.Entities
             return userIdentity;
         }
 
+        public virtual ICollection<TaskPM> Tasks { get; set; }
+
+
     }
 }

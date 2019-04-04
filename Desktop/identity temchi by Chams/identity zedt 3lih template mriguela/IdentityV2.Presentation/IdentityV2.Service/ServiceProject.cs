@@ -17,14 +17,15 @@ namespace IdentityV2.Service
         public ServiceProject() : base(wow)
         {
         }
+
         public IEnumerable<Project> GetProjectavailable()
         {
-            return GetMany(t => t.Etat == 1).OfType<Project>();
+            throw new NotImplementedException();
         }
 
         public IEnumerable<Project> GetProjectWaiting()
         {
-            return GetMany(t => t.Etat == 0).OfType<Project>();
+            throw new NotImplementedException();
         }
     }
 }

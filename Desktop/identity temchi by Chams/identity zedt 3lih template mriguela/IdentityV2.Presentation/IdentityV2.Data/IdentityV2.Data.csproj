@@ -81,21 +81,9 @@
     <Compile Include="Infrastructure\IUnitOfWork.cs" />
     <Compile Include="Infrastructure\RepositoryBase.cs" />
     <Compile Include="Infrastructure\UnitOfWork.cs" />
-    <Compile Include="Migrations\201903291051514_PremierMig.cs" />
-    <Compile Include="Migrations\201903291051514_PremierMig.Designer.cs">
-      <DependentUpon>201903291051514_PremierMig.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201903312125539_secondM.cs" />
-    <Compile Include="Migrations\201903312125539_secondM.Designer.cs">
-      <DependentUpon>201903312125539_secondM.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201904011959567_CompanyMig.cs" />
-    <Compile Include="Migrations\201904011959567_CompanyMig.Designer.cs">
-      <DependentUpon>201904011959567_CompanyMig.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201904041049315_sometables.cs" />
-    <Compile Include="Migrations\201904041049315_sometables.Designer.cs">
-      <DependentUpon>201904041049315_sometables.cs</DependentUpon>
+    <Compile Include="Migrations\201904041518425_fre.cs" />
+    <Compile Include="Migrations\201904041518425_fre.Designer.cs">
+      <DependentUpon>201904041518425_fre.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Mycontext.cs" />
@@ -116,17 +104,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201903291051514_PremierMig.resx">
-      <DependentUpon>201903291051514_PremierMig.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201903312125539_secondM.resx">
-      <DependentUpon>201903312125539_secondM.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201904011959567_CompanyMig.resx">
-      <DependentUpon>201904011959567_CompanyMig.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201904041049315_sometables.resx">
-      <DependentUpon>201904041049315_sometables.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201904041518425_fre.resx">
+      <DependentUpon>201904041518425_fre.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -3,7 +3,6 @@
 @{
     ViewBag.Title = "Create";
     Layout = "~/Views/Shared/_MyTemplatepage.cshtml";
-
 }
 
 <h2>Create</h2>
@@ -52,14 +51,14 @@
 
    
 
+      
         <div class="form-group">
-            @Html.LabelFor(model => model.ProjectId, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.UserId, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.DropDownList("ProjectId", (SelectList)ViewData["ListProjects"])
-                @Html.ValidationMessageFor(model => model.ProjectId, "", new { @class = "text-danger" })
+                @Html.DropDownList("UserId", (SelectList)ViewData["ListUsers"])
+                @Html.ValidationMessageFor(model => model.UserId, "", new { @class = "text-danger" })
             </div>
         </div>
-
 
 
 

@@ -46,10 +46,7 @@ C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mr
 C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Data\bin\Debug\Stripe.net.xml
 C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Data\bin\Debug\System.Collections.Immutable.xml
 C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Data\obj\Debug\IdentityV2.Data.csprojResolveAssemblyReference.cache
-C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Data\obj\Debug\IdentityV2.Data.Migrations.PremierMig.resources
-C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Data\obj\Debug\IdentityV2.Data.Migrations.secondM.resources
-C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Data\obj\Debug\IdentityV2.Data.Migrations.CompanyMig.resources
-C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Data\obj\Debug\IdentityV2.Data.csproj.GenerateResource.Cache
 C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Data\obj\Debug\IdentityV2.Data.dll
 C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Data\obj\Debug\IdentityV2.Data.pdb
-C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Data\obj\Debug\IdentityV2.Data.Migrations.sometables.resources
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Data\obj\Debug\IdentityV2.Data.Migrations.fre.resources
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Data\obj\Debug\IdentityV2.Data.csproj.GenerateResource.Cache
