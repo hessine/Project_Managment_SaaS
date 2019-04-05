@@ -1,0 +1,92 @@
+﻿@model WebMap.Models.RequestViewModel
+
+@{
+    ViewBag.Title = "Refuse";
+    Layout = "~/Views/Shared/_MyTemplatepage.cshtml";
+}}
+
+<h2>Refuse</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.RequestId)
+
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.DateBegin)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.DateBegin)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.DateEnd)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.DateEnd)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.DateDeposit)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.DateDeposit)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.subject)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.subject)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.coast)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.coast)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.nbrResource)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.nbrResource)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.ClientId)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ClientId)
+            </dd>
+
+           
+
+        </dl>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Refuse" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

@@ -1,0 +1,62 @@
+﻿@model IEnumerable<WebMap.Models.SkillsModelView>
+
+@{
+    ViewBag.Title = "Addskillsproject";
+    Layout = "~/Views/Shared/_MyTemplatepage.cshtml";
+}
+
+<div class="form-group form-focus">
+    <label class="control-label">Search Skills to Add ...</label>
+    <input type="text" class="form-control floating" id="search" />
+</div>
+
+<table class="table">
+    <tr>
+        <th>
+           <label>Skill Id</label>
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Difficulity)
+        </th>
+        
+        
+        <th>
+            Action
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr class="search">
+            <td>
+                @Html.DisplayFor(modelItem => item.Skillsnum)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Difficulity)
+            </td>
+            
+           
+            <td><button id="@item.Skillsnum" onclick="AddSkills(this)">Add</button></td>
+            @*<td>
+                    @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                </td>*@
+        </tr>
+    }
+
+</table>
+
+<script>
+    function AddSkills(i) {
+        var x = document.getElementById('skillstoadd').value += i.id+"/";
+        i.style.visibility = 'hidden';
+    }
+</script>

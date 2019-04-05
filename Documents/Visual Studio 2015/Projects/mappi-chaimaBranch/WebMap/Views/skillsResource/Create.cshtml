@@ -1,0 +1,27 @@
+﻿@model IEnumerable<WebMap.Models.SkillsViewModels>
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_MyTemplatepage.cshtml";
+}
+
+<h2>Create</h2>
+
+<div class="col-sm-3 col-xs-6">
+    <div class="form-group form-focus">
+        <label class="control-label">Employee ID</label>
+        <input type="text" id="search" placeholder="search" class="form-control floating" />
+    </div>
+</div>
+<table>
+    <tr>
+        <th>name</th>
+        <th>add</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr class="search">
+        <td>@Html.DisplayFor(modelItem => item.name)</td>
+            <td>add</td>    
+        </tr>
+    }
+</table>

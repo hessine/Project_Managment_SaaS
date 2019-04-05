@@ -1,0 +1,74 @@
+﻿
+@model IEnumerable<WebMap.Models.ResourceViewModel>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MyTemplatepage.cshtml";
+}
+@using (Html.BeginForm())
+{
+
+    @*Un seul bouton pour les deux recherches*@
+
+}
+
+<div class="row filter-row">
+    <div class="col-sm-3 col-xs-6">
+        <div class="form-group form-focus">
+            <label class="control-label">Search</label>
+            <input type="text" id="search" placeholder="search" class="form-control floating" />
+        </div>
+    </div>
+
+
+
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="table-responsive">
+            <table class="table table-striped custom-table datatable">
+                <thead>
+                    <tr>
+                        <th style="width:30%;"> Name</th>
+
+                        <th> @Html.DisplayNameFor(model => model.Email)</th>
+                        <th>@Html.DisplayNameFor(model => model.BuissnesSector)</th>
+                        
+
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr class="search">
+
+                            <td>
+                                <a href="profile.html"><img class="avatar" src="@Url.Content(item.PictureResource)" alt=""></a>
+                                <h2>
+                                    <a href="profile.html">
+                                        @Html.DisplayFor(modelItem => item.FirstName)
+                                    @Html.DisplayFor(modelItem => item.LastName)
+                                    <span>@Html.DisplayFor(modelItem => item.Contrat)</span>
+                                </a>
+                            </h2>
+
+                        </td>
+
+
+                        <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                        @{var i = item.Availability; }
+
+
+
+
+                        <td>@Html.DisplayFor(modelItem => item.BuissnesSector)</td>
+                      
+                       
+                    </tr>
+
+                            }
+            </table>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,78 @@
+﻿@model WebMap.Models.ResourceViewModel
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_MyTemplatepage.cshtml";
+}
+
+<h2>Edit</h2>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+<div class="row">
+    <div class="col-sm-8">
+        <h4 class="page-title">Edit Profile</h4>
+    </div>
+</div>
+
+    <div class="card-box">
+        <h3 class="card-title">Basic Informations</h3>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="profile-img-wrap">
+                    <img class="inline-block" src="assets/img/user.jpg" alt="user">
+                    <div class="fileupload btn btn-default">
+                        <span class="btn-text">edit</span>
+                        <input class="upload" type="file">
+                    </div>
+                </div>
+                <div class="profile-basic">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group form-focus">
+                                @Html.LabelFor(model => model.FirstName, htmlAttributes: new { @class = "control-label col-md-2" })
+                                 @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new { @class = "form-control floating" } })
+                             
+                                  @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" }) 
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group form-focus">
+                                @Html.LabelFor(model => model.LastName, htmlAttributes: new { @class = "control-label col-md-2" })
+                                @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { @class = "form-control floating" } })
+
+                                @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
+                            </div>
+                                
+                            </div>
+                       
+                        <div class="col-md-6">
+                            <div class="form-group form-focus">
+                                @Html.LabelFor(model => model.BuissnesSector, htmlAttributes: new { @class = "control-label col-md-2" })
+                                @Html.EditorFor(model => model.BuissnesSector, new { htmlAttributes = new { @class = "form-control floating" } })
+
+                                @Html.ValidationMessageFor(model => model.BuissnesSector, "", new { @class = "text-danger" })
+                            </div>
+                            </div>
+                        
+                        <div class="col-md-6">
+                            <div class="form-group form-focus select-focus">
+                               
+                            @Html.LabelFor(model => model.Contrat, htmlAttributes: new { @class = "control-label " })
+                            <div >
+                                @Html.EnumDropDownListFor(model => model.Contrat, new { htmlAttributes = new { @class = "select form-control floating" } })
+                                @Html.ValidationMessageFor(model => model.Contrat, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <div class="text-center m-t-20">
+        <button class="btn btn-primary btn-lg" type="submit">Save &amp; update</button>
+    </div>
+        
+
+}

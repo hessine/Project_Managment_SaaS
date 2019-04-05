@@ -1,0 +1,140 @@
+﻿@model IEnumerable<WebMap.Models.RequestViewModel>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MyTemplatepage.cshtml";
+}
+
+<h2>Request's list</h2>
+
+@*recherche*@
+<div class="col-sm-3 col-xs-6">
+    <div class="form-group form-focus">
+        <label class="control-label">Search</label>
+        <input type="text" class="form-control floating" id="search" />
+    </div>
+</div>
+<br />
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DateBegin)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateEnd)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateDeposit)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.subject)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.coast)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nbrResource)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LastName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ReportedDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.state)
+        </th>
+        
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr class="search">
+        <td>
+            @Html.DisplayFor(modelItem => item.DateBegin)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateEnd)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateDeposit)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.subject)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.coast)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nbrResource)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LastName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ReportedDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.state)
+        </td>
+        
+        <td>
+
+           
+
+           
+            
+            
+             @if (item.state == 0)
+            { @Html.ActionLink("Accept", "Accept", new { id = item.RequestId, disabled = "disabled" })  <span>|</span>
+                @Html.ActionLink("Refuse", "Refuse", new { id = item.RequestId, disabled = "disabled" })<span>|</span>
+                @Html.ActionLink("Report", "Report", new { id = item.RequestId, disabled = "disabled" })
+
+             }
+           
+
+
+        </td>
+    </tr>
+}
+
+</table>
+
+
+@if (ViewBag.notif != null)
+{
+    <script type="text/javascript">
+    window.onload = function () {
+        alert("@ViewBag.notif");
+    };
+    </script>
+}
+@section scripts {
+    <script>
+
+            $(document).ready(function () {
+                function Contains(text1, text2) {
+                    if (text1.indexOf(text2) != -1)
+                        return true;
+                }
+                $("#search").keyup(function () {
+                    var searchText = $("#search").val().toLowerCase();
+                    $(".search").each(function () {
+                        if (!Contains($(this).text().toLowerCase(), searchText)) {
+                            $(this).hide();
+                        }
+                        else {
+                            $(this).show();
+                        }
+                    });
+                });
+            });
+    </script>
+
+}

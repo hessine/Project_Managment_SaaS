@@ -1,0 +1,794 @@
+﻿@model WebMap.Models.StatisticsViewModels
+
+
+@{
+    ViewBag.Title = "Statistics";
+    Layout = "~/Views/Shared/_MyTemplatepage.cshtml";
+}
+
+
+
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-lg-3">
+                <div class="dash-widget clearfix card-box">
+                    <span class="dash-widget-icon"><i class="fa fa-cubes" aria-hidden="true"></i></span>
+                    <div class="dash-widget-info">
+                        <h3>@Html.DisplayFor(model => model.nbProjects)</h3>
+                        <span>Projects</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-lg-3">
+                <div class="dash-widget clearfix card-box">
+                    <span class="dash-widget-icon"><i class="fa fa-usd" aria-hidden="true"></i></span>
+                    <div class="dash-widget-info">
+                        <h3>@Html.DisplayFor(model => model.nbClients)</h3>
+                        <span>Clients</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-lg-3">
+                <div class="dash-widget clearfix card-box">
+                    <span class="dash-widget-icon"><i class="fa fa-diamond"></i></span>
+                    <div class="dash-widget-info">
+                        <h3>37</h3>
+                        <span>Tasks</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-lg-3">
+                <div class="dash-widget clearfix card-box">
+                    <span class="dash-widget-icon"><i class="fa fa-user" aria-hidden="true"></i></span>
+                    <div class="dash-widget-info">
+                        <h3>@Html.DisplayFor(model => model.nbResources)</h3>
+                        <span>Resources</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-sm-6 text-center">
+                        <div class="card-box">
+                            <div id="area-chart"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 text-center">
+                        <div class="card-box">
+                            <div id="line-chart"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 text-center">
+                        <div class="card-box">
+                            <div id="bar-chart"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 text-center">
+                        <div class="card-box">
+                            <div id="stacked"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 text-center">
+                        <div class="card-box">
+                            <div id="pie-chart"></div>
+                        </div>
+                    </div>
+
+                        
+                        
+                    </div>
+                </div>
+            </div>
+    <div><span></span></div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <div id="chartdiv" style="width: 100%;height: 500px;"></div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+   <div>
+    <br />
+    <br />
+</div>
+
+            <div class="row">
+                <div class="col-md-12">
+                   <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+                </div>
+       
+            </div>
+<div><br />
+    <br /></div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="panel panel-table">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Clients</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <table class="table table-striped custom-table m-b-0">
+                                    <thead>
+                                        <tr>
+                                            <th style="min-width:200px;">Name</th>
+                                            <th>Email</th>
+                                            <th>Status</th>
+                                            <th class="text-right">Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td style="min-width:200px;">
+                                                <a href="#" class="avatar">B</a>
+                                                <h2><a href="client-profile.html">Barry Cuda <span>CEO</span></a></h2>
+                                            </td>
+                                            <td>barrycuda@example.com</td>
+                                            <td>
+                                                <div class="dropdown action-label">
+                                                    <a class="btn btn-white btn-sm rounded dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+                                                        <i class="fa fa-dot-circle-o text-success"></i> Active <i class="caret"></i>
+                                                    </a>
+                                                    <ul class="dropdown-menu pull-right">
+                                                        <li><a href="#"><i class="fa fa-dot-circle-o text-success"></i> Active</a></li>
+                                                        <li><a href="#"><i class="fa fa-dot-circle-o text-danger"></i> Inactive</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                            <td class="text-right">
+                                                <div class="dropdown">
+                                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                                    <ul class="dropdown-menu pull-right">
+                                                        <li><a href="#" title="Edit"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
+                                                        <li><a href="#" title="Delete"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a class="avatar">T</a>
+                                                <h2><a href="client-profile.html">Tressa Wexler <span>Manager</span></a></h2>
+                                            </td>
+                                            <td>tressawexler@example.com</td>
+                                            <td>
+                                                <div class="dropdown action-label">
+                                                    <a class="btn btn-white btn-sm rounded dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+                                                        <i class="fa fa-dot-circle-o text-danger"></i> Inactive <i class="caret"></i>
+                                                    </a>
+                                                    <ul class="dropdown-menu pull-right">
+                                                        <li><a href="#"><i class="fa fa-dot-circle-o text-success"></i> Active</a></li>
+                                                        <li><a href="#"><i class="fa fa-dot-circle-o text-danger"></i> Inactive</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                            <td class="text-right">
+                                                <div class="dropdown">
+                                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                                    <ul class="dropdown-menu pull-right">
+                                                        <li><a href="#" title="Edit"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
+                                                        <li><a href="#" title="Delete"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="client-profile.html" class="avatar">R</a>
+                                                <h2><a href="client-profile.html">Ruby Bartlett <span>CEO</span></a></h2>
+                                            </td>
+                                            <td>rubybartlett@example.com</td>
+                                            <td>
+                                                <div class="dropdown action-label">
+                                                    <a class="btn btn-white btn-sm rounded dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+                                                        <i class="fa fa-dot-circle-o text-danger"></i> Inactive <i class="caret"></i>
+                                                    </a>
+                                                    <ul class="dropdown-menu pull-right">
+                                                        <li><a href="#"><i class="fa fa-dot-circle-o text-success"></i> Active</a></li>
+                                                        <li><a href="#"><i class="fa fa-dot-circle-o text-danger"></i> Inactive</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                            <td class="text-right">
+                                                <div class="dropdown">
+                                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                                    <ul class="dropdown-menu pull-right">
+                                                        <li><a href="#" title="Edit"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
+                                                        <li><a href="#" title="Delete"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="client-profile.html" class="avatar">M</a>
+                                                <h2><a href="client-profile.html"> Misty Tison <span>CEO</span></a></h2>
+                                            </td>
+                                            <td>mistytison@example.com</td>
+                                            <td>
+                                                <div class="dropdown action-label">
+                                                    <a class="btn btn-white btn-sm rounded dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+                                                        <i class="fa fa-dot-circle-o text-success"></i> Active <i class="caret"></i>
+                                                    </a>
+                                                    <ul class="dropdown-menu pull-right">
+                                                        <li><a href="#"><i class="fa fa-dot-circle-o text-success"></i> Active</a></li>
+                                                        <li><a href="#"><i class="fa fa-dot-circle-o text-danger"></i> Inactive</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                            <td class="text-right">
+                                                <div class="dropdown">
+                                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                                    <ul class="dropdown-menu pull-right">
+                                                        <li><a href="#" title="Edit"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
+                                                        <li><a href="#" title="Delete"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="client-profile.html" class="avatar">D</a>
+                                                <h2><a href="client-profile.html"> Daniel Deacon <span>CEO</span></a></h2>
+                                            </td>
+                                            <td>danieldeacon@example.com</td>
+                                            <td>
+                                                <div class="dropdown action-label">
+                                                    <a class="btn btn-white btn-sm rounded dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+                                                        <i class="fa fa-dot-circle-o text-danger"></i> Inactive <i class="caret"></i>
+                                                    </a>
+                                                    <ul class="dropdown-menu pull-right">
+                                                        <li><a href="#"><i class="fa fa-dot-circle-o text-success"></i> Active</a></li>
+                                                        <li><a href="#"><i class="fa fa-dot-circle-o text-danger"></i> Inactive</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                            <td class="text-right">
+                                                <div class="dropdown">
+                                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                                    <ul class="dropdown-menu pull-right">
+                                                        <li><a href="#" title="Edit"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
+                                                        <li><a href="#" title="Delete"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="panel-footer">
+                            <a href="clients.html" class="text-primary">View all clients</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="panel panel-table">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Recent Projects</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <table class="table table-striped custom-table m-b-0">
+                                    <thead>
+                                        <tr>
+                                            <th class="col-md-3">Project Name </th>
+                                            <th class="col-md-3">Progress</th>
+                                            <th class="text-right col-md-1">Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <h2><a href="project-view.html">Food and Drinks</a></h2>
+                                                <small class="block text-ellipsis">
+                                                    <span class="text-xs">1</span> <span class="text-muted">open tasks, </span>
+                                                    <span class="text-xs">9</span> <span class="text-muted">tasks completed</span>
+                                                </small>
+                                            </td>
+                                            <td>
+                                                <div class="progress progress-xs progress-striped">
+                                                    <div class="progress-bar bg-success" role="progressbar" data-toggle="tooltip" title="65%" style="width: 65%"></div>
+                                                </div>
+                                            </td>
+                                            <td class="text-right">
+                                                <div class="dropdown">
+                                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                                    <ul class="dropdown-menu pull-right">
+                                                        <li><a href="#" title="Edit"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
+                                                        <li><a href="#" title="Delete"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <h2><a href="project-view.html">School Guru</a></h2>
+                                                <small class="block text-ellipsis">
+                                                    <span class="text-xs">2</span> <span class="text-muted">open tasks, </span>
+                                                    <span class="text-xs">5</span> <span class="text-muted">tasks completed</span>
+                                                </small>
+                                            </td>
+                                            <td>
+                                                <div class="progress progress-xs progress-striped">
+                                                    <div class="progress-bar bg-success" role="progressbar" data-toggle="tooltip" title="15%" style="width: 15%"></div>
+                                                </div>
+                                            </td>
+                                            <td class="text-right">
+                                                <div class="dropdown">
+                                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                                    <ul class="dropdown-menu pull-right">
+                                                        <li><a href="#" title="Edit"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
+                                                        <li><a href="#" title="Delete"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <h2><a href="project-view.html">Penabook</a></h2>
+                                                <small class="block text-ellipsis">
+                                                    <span class="text-xs">3</span> <span class="text-muted">open tasks, </span>
+                                                    <span class="text-xs">3</span> <span class="text-muted">tasks completed</span>
+                                                </small>
+                                            </td>
+                                            <td>
+                                                <div class="progress progress-xs progress-striped">
+                                                    <div class="progress-bar bg-success" role="progressbar" data-toggle="tooltip" title="49%" style="width: 49%"></div>
+                                                </div>
+                                            </td>
+                                            <td class="text-right">
+                                                <div class="dropdown">
+                                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                                    <ul class="dropdown-menu pull-right">
+                                                        <li><a href="#" title="Edit"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
+                                                        <li><a href="#" title="Delete"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <h2><a href="project-view.html">Harvey Clinic</a></h2>
+                                                <small class="block text-ellipsis">
+                                                    <span class="text-xs">12</span> <span class="text-muted">open tasks, </span>
+                                                    <span class="text-xs">4</span> <span class="text-muted">tasks completed</span>
+                                                </small>
+                                            </td>
+                                            <td>
+                                                <div class="progress progress-xs progress-striped">
+                                                    <div class="progress-bar bg-success" role="progressbar" data-toggle="tooltip" title="88%" style="width: 88%"></div>
+                                                </div>
+                                            </td>
+                                            <td class="text-right">
+                                                <div class="dropdown">
+                                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                                    <ul class="dropdown-menu pull-right">
+                                                        <li><a href="#" title="Edit"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
+                                                        <li><a href="#" title="Delete"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <h2><a href="project-view.html">The Gigs</a></h2>
+                                                <small class="block text-ellipsis">
+                                                    <span class="text-xs">7</span> <span class="text-muted">open tasks, </span>
+                                                    <span class="text-xs">14</span> <span class="text-muted">tasks completed</span>
+                                                </small>
+                                            </td>
+                                            <td>
+                                                <div class="progress progress-xs progress-striped">
+                                                    <div class="progress-bar bg-success" role="progressbar" data-toggle="tooltip" title="100%" style="width: 100%"></div>
+                                                </div>
+                                            </td>
+                                            <td class="text-right">
+                                                <div class="dropdown">
+                                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                                    <ul class="dropdown-menu pull-right">
+                                                        <li><a href="#" title="Edit"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
+                                                        <li><a href="#" title="Delete"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="panel-footer">
+                            <a href="projects.html" class="text-primary">View all projects</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="themes">
+                <div class="themes-icon"><i class="fa fa-cog"></i></div>
+                <div class="themes-body">
+                    <ul id="theme-change" class="theme-colors">
+                        <li><a href="https://dreamguys.co.in/smarthr/orange/index.html"><span class="theme-orange"></span></a></li>
+                        <li><a href="https://dreamguys.co.in/smarthr/purple/index.html"><span class="theme-purple"></span></a></li>
+                        <li><a href="https://dreamguys.co.in/smarthr/blue/index.html"><span class="theme-blue"></span></a></li>
+                        <li><a href="index.html"><span class="theme-maroon"></span></a></li>
+                        <li><a href="https://dreamguys.co.in/smarthr/light/index.html"><span class="theme-light"></span></a></li>
+                        <li><a href="https://dreamguys.co.in/smarthr/dark/index.html"><span class="theme-dark"></span></a></li>
+                        <li><a href="https://dreamguys.co.in/smarthr/rtl/index.html"><span class="theme-rtl">RTL</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="notification-box">
+            <div class="msg-sidebar notifications msg-noti">
+                <div class="topnav-dropdown-header">
+                    <span>Messages</span>
+                </div>
+                <div class="drop-scroll msg-list-scroll">
+                    <ul class="list-box">
+                        <li>
+                            <a href="chat.html">
+                                <div class="list-item">
+                                    <div class="list-left">
+                                        <span class="avatar">R</span>
+                                    </div>
+                                    <div class="list-body">
+                                        <span class="message-author">Richard Miles </span>
+                                        <span class="message-time">12:28 AM</span>
+                                        <div class="clearfix"></div>
+                                        <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="chat.html">
+                                <div class="list-item new-message">
+                                    <div class="list-left">
+                                        <span class="avatar">J</span>
+                                    </div>
+                                    <div class="list-body">
+                                        <span class="message-author">John Doe</span>
+                                        <span class="message-time">1 Aug</span>
+                                        <div class="clearfix"></div>
+                                        <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="chat.html">
+                                <div class="list-item">
+                                    <div class="list-left">
+                                        <span class="avatar">T</span>
+                                    </div>
+                                    <div class="list-body">
+                                        <span class="message-author"> Tarah Shropshire </span>
+                                        <span class="message-time">12:28 AM</span>
+                                        <div class="clearfix"></div>
+                                        <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="chat.html">
+                                <div class="list-item">
+                                    <div class="list-left">
+                                        <span class="avatar">M</span>
+                                    </div>
+                                    <div class="list-body">
+                                        <span class="message-author">Mike Litorus</span>
+                                        <span class="message-time">12:28 AM</span>
+                                        <div class="clearfix"></div>
+                                        <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="chat.html">
+                                <div class="list-item">
+                                    <div class="list-left">
+                                        <span class="avatar">C</span>
+                                    </div>
+                                    <div class="list-body">
+                                        <span class="message-author"> Catherine Manseau </span>
+                                        <span class="message-time">12:28 AM</span>
+                                        <div class="clearfix"></div>
+                                        <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="chat.html">
+                                <div class="list-item">
+                                    <div class="list-left">
+                                        <span class="avatar">D</span>
+                                    </div>
+                                    <div class="list-body">
+                                        <span class="message-author"> Domenic Houston </span>
+                                        <span class="message-time">12:28 AM</span>
+                                        <div class="clearfix"></div>
+                                        <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="chat.html">
+                                <div class="list-item">
+                                    <div class="list-left">
+                                        <span class="avatar">B</span>
+                                    </div>
+                                    <div class="list-body">
+                                        <span class="message-author"> Buster Wigton </span>
+                                        <span class="message-time">12:28 AM</span>
+                                        <div class="clearfix"></div>
+                                        <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="chat.html">
+                                <div class="list-item">
+                                    <div class="list-left">
+                                        <span class="avatar">R</span>
+                                    </div>
+                                    <div class="list-body">
+                                        <span class="message-author"> Rolland Webber </span>
+                                        <span class="message-time">12:28 AM</span>
+                                        <div class="clearfix"></div>
+                                        <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="chat.html">
+                                <div class="list-item">
+                                    <div class="list-left">
+                                        <span class="avatar">C</span>
+                                    </div>
+                                    <div class="list-body">
+                                        <span class="message-author"> Claire Mapes </span>
+                                        <span class="message-time">12:28 AM</span>
+                                        <div class="clearfix"></div>
+                                        <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="chat.html">
+                                <div class="list-item">
+                                    <div class="list-left">
+                                        <span class="avatar">M</span>
+                                    </div>
+                                    <div class="list-body">
+                                        <span class="message-author">Melita Faucher</span>
+                                        <span class="message-time">12:28 AM</span>
+                                        <div class="clearfix"></div>
+                                        <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="chat.html">
+                                <div class="list-item">
+                                    <div class="list-left">
+                                        <span class="avatar">J</span>
+                                    </div>
+                                    <div class="list-body">
+                                        <span class="message-author">Jeffery Lalor</span>
+                                        <span class="message-time">12:28 AM</span>
+                                        <div class="clearfix"></div>
+                                        <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="chat.html">
+                                <div class="list-item">
+                                    <div class="list-left">
+                                        <span class="avatar">L</span>
+                                    </div>
+                                    <div class="list-body">
+                                        <span class="message-author">Loren Gatlin</span>
+                                        <span class="message-time">12:28 AM</span>
+                                        <div class="clearfix"></div>
+                                        <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="chat.html">
+                                <div class="list-item">
+                                    <div class="list-left">
+                                        <span class="avatar">T</span>
+                                    </div>
+                                    <div class="list-body">
+                                        <span class="message-author">Tarah Shropshire</span>
+                                        <span class="message-time">12:28 AM</span>
+                                        <div class="clearfix"></div>
+                                        <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="topnav-dropdown-footer">
+                    <a href="chat.html">See all messages</a>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    <div class="sidebar-overlay" data-reff="#sidebar"></div>
+    <script type="text/javascript" src="@Url.Content("~/Content/MyTemplate/")js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="@Url.Content("~/Content/MyTemplate/")js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="@Url.Content("~/Content/MyTemplate/")js/jquery.slimscroll.js"></script>
+    <script type="text/javascript" src="@Url.Content("~/Content/MyTemplate/")plugins/morris/morris.min.js"></script>
+    <script type="text/javascript" src="@Url.Content("~/Content/MyTemplate/")plugins/raphael/raphael-min.js"></script>
+    <script type="text/javascript" src="@Url.Content("~/Content/MyTemplate/")js/app.js"></script>
+    <script type="text/javascript" src="@Url.Content("~/Content/MyTemplate/")js/canvasjs.min.js"></script>
+    <script src="@Url.Content("~/Content/MyTemplate/")js/ammap.js"></script>
+    <script src="@Url.Content("~/Content/MyTemplate/")js/worldLow.js"></script>
+    <script src="@Url.Content("~/Content/MyTemplate/")js/export.min.js"></script>
+    <link rel="stylesheet" href="@Url.Content("~/Content/MyTemplate/css")export.css" type="text/css" media="all" />
+    <script src="@Url.Content("~/Content/MyTemplate/")js/light.js"></script>
+    <script src="@Url.Content("~/Content/MyTemplate/")js/canvasjs.min.js"></script>
+<script>
+window.onload = function () {
+
+var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+	exportEnabled: true,
+	title:{
+		text: "Product Manufacturing Expenses"
+	},
+	data: [{
+		type: "pyramid",
+		indexLabelFontSize: 18,
+		valueRepresents: "area",
+		showInLegend: true,
+		legendText: "{indexLabel}",
+		toolTipContent: "<b>{indexLabel}:</b> {y}%",
+		dataPoints: [
+			{ y: 30, indexLabel: "Research and Design" },
+			{ y: 30, indexLabel: "Manufacturing" },
+			{ y: 15, indexLabel: "Marketing" },
+			{ y: 13, indexLabel: "Shipping" },
+			{ y: 12, indexLabel: "Retail" }
+		]
+	}]
+});
+chart.render();
+
+}
+</script>
+
+
+    <script>
+
+        var var1 =@JavaScriptConvert.SerializeObject(Model.nbProjects);
+        var var2 =@JavaScriptConvert.SerializeObject(Model.nbResources);
+        var var3 =@JavaScriptConvert.SerializeObject(Model.nbClients);
+
+            		var data = [
+            	  { y: '2014', a: 50, b: 20 },
+            	  { y: '2015', a: 65,  b: 75},
+            	  { y: '2016', a: 50,  b: 50},
+            	  { y: '2017', a: 75,  b: 60},
+            	  { y: '2018', a: 80,  b: 65},
+            	  { y: '2019', a: 90,  b: 70},
+            	  { y: '2020', a: 100, b: 75},
+            	  { y: '2021', a: 115, b: 75},
+            	  { y: '2022', a: 120, b: 85},
+            	  { y: '2023', a: 145, b: 85},
+            	  { y: '2024', a: 160, b: 95}
+            	],
+            	config = {
+            	  data: data,
+            	  xkey: 'y',
+            	  ykeys: ['a', 'b'],
+            	  labels: ['Total Income', 'Total Outcome'],
+            	  fillOpacity: 0.6,
+            	  hideHover: 'auto',
+            	  behaveLikeLine: true,
+            	  resize: true,
+            	  pointFillColors:['#ffffff'],
+            	  pointStrokeColors: ['black'],
+            		gridLineColor: '#eef0f2',
+            	  lineColors:['gray','#f43b48']
+              };
+            config.element = 'area-chart';
+            Morris.Area(config);
+            config.element = 'line-chart';
+            Morris.Line(config);
+            config.element = 'bar-chart';
+            Morris.Bar(config);
+            config.element = 'stacked';
+            config.stacked = true;
+            Morris.Bar(config);
+            Morris.Donut({
+              element: 'pie-chart',
+              data: [
+            	{ label: "Resources", value: var2 },
+            	{label: "Clients", value: var3},
+            	{label: "Projects", value: var1}
+
+              ]
+            });
+    </script>
+
+
+    <script>
+
+
+
+
+                   var targetSVG = "M9,0C4.029,0,0,4.029,0,9s4.029,9,9,9s9-4.029,9-9S13.971,0,9,0z M9,15.93 c-3.83,0-6.93-3.1-6.93-6.93S5.17,2.07,9,2.07s6.93,3.1,6.93,6.93S12.83,15.93,9,15.93 M12.5,9c0,1.933-1.567,3.5-3.5,3.5S5.5,10.933,5.5,9S7.067,5.5,9,5.5 S12.5,7.067,12.5,9z";
+
+                   /**
+                    * Create the map
+                    */
+
+
+                   var varp =@JavaScriptConvert.SerializeObject(Model.projects);
+        console.log(varp)
+
+        for (var v=0 ; v<varp.length; v++ ) {
+
+            var map = AmCharts.makeChart( "chartdiv", {
+
+
+                "type": "map",
+                "projection": "winkel3",
+                "theme": "light",
+                "imagesSettings": {
+
+
+
+                    "rollOverColor": "#089282",
+                    "rollOverScale": 3,
+                    "selectedScale": 3,
+                    "selectedColor": "#089282",
+                    "color": "#13564e"
+                },
+
+                "areasSettings": {
+                    "unlistedAreasColor": "#15A892",
+                    "outlineThickness": 0.1
+                },
+
+                "dataProvider": {
+
+                    "map": "worldLow",
+                    "images": [ {
+                        "svgPath": targetSVG,
+                        "zoomLevel": 5,
+                        "scale": 0.5,
+                        "title": varp[v].address,
+                        "latitude": varp[v].latitude,
+                        "longitude":  varp[v].longitude
+                    } ]
+                },
+                "export": {
+                    "enabled": true
+                }
+            } ); }
+    </script>
+

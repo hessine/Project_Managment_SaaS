@@ -1,0 +1,96 @@
+﻿@model WebMap.Models.ResourceViewModel
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_MyTemplatepage.cshtml";
+}
+<h2>Details</h2>
+
+<div class="row">
+    <div class="col-sm-8">
+        <h4 class="page-title">My Profile</h4>
+    </div>
+
+    <div class="col-sm-4 text-right m-b-30">
+        <a Class = "btn btn-primary rounded"  ><i class="fa fa-plus" ></i> @Html.ActionLink("EDIT Resource", "Edit",new { id = Model.ID }, new { @class = "btn btn-primary rounded" })</a>
+    </div>
+</div>
+<div class="card-box">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="profile-view">
+                <div class="profile-img-wrap">
+                    <div class="profile-img">
+                        <a href="#"><img class="avatar" src="@Url.Content(Model.PictureResource)" alt=""></a>
+                    </div>
+                </div>
+                <div class="profile-basic">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="profile-info-left">
+                                <h3 > @Html.DisplayFor(model => model.FirstName, new { @class = "user-name m-t-0 m-b-0" })
+                                    @Html.DisplayFor(model => model.LastName, new { @class = "user-name m-t-0 m-b-0" })</h3>
+                                <small>@Html.DisplayFor(model => model.BuissnesSector, new { @class = "text-muted" })</small>
+                                <div >@Html.DisplayFor(model => model.Contrat, new { @class = "staff-id" })</div>
+                                <div class="staff-msg"><a href="chat.html" class="btn btn-primary">Send Message</a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <ul class="personal-info">
+                                <li>
+                                    <span class="title">@Html.DisplayNameFor(model => model.PhoneNumber)</span>
+                                    <span> @Html.DisplayFor(model => model.PhoneNumber, new { @class = "text" })</span>
+                                </li>
+                                <li>
+                                    <span class="title"> @Html.DisplayNameFor(model => model.Email)</span>
+                                    <span> @Html.DisplayFor(model => model.Email, new { @class = "text" })</span>
+                                </li>
+                                <li>
+                                    <span class="title">Birthday:</span>
+                                    <span class="text">24th July</span>
+                                </li>
+                                <li>
+                                    <span class="title">Address:</span>
+                                    <span class="text">1861 Bayonne Ave, Manchester Township, NJ, 08759</span>
+                                </li>
+                                <li>
+                                    <span class="title">Gender:</span>
+                                    <span class="text">Male</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-3">
+        <div class="card-box m-b-0">
+            <h3 class="card-title">Skills</h3>
+            <div class="skills">
+                @foreach (var std in ViewData["listSkills"] as IList<string>)
+                { 
+                    <span>@std</span>
+
+                }
+               
+                <a Class="btn btn-primary rounded"><i class="fa fa-plus"></i> @Html.ActionLink("ADD More skills", "addSkillsResource", "skillsResource", new { id = Model.ID }, new { @class = "btn btn-primary rounded" })</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-9">
+        <div class="card-box">
+            
+        </div>
+        <div class="card-box m-b-0">
+          
+        </div>
+    </div>
+
+                
+
+       
+    </div>
+
+            

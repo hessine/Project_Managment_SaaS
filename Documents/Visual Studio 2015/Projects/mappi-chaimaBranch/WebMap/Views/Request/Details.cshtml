@@ -1,0 +1,79 @@
+﻿@model WebMap.Models.RequestViewModel
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_TemplateClient.cshtml";
+}
+
+<h2>DetailsRequest</h2>
+
+<div>
+    
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DateBegin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateBegin)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateEnd)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateEnd)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateDeposit)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateDeposit)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.subject)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.subject)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.coast)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.coast)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nbrResource)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nbrResource)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ClientId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ClientId)
+        </dd>
+
+        
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit",
+                        new { id = Model.RequestId }, null)|
+    @Html.ActionLink("Back to List", "Index")
+</p>
+

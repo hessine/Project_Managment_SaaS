@@ -1,0 +1,95 @@
+﻿@model WebMap.Models.RequiredSkillsViewModel
+
+@{
+    ViewBag.Title = "AddRequiredSkills";
+    Layout = "~/Views/Shared/_TemplateClient.cshtml";
+
+}
+
+<h2>AddRequiredSkills</h2>
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>RequiredSkillsViewModel</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+       
+       
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.experience, htmlAttributes: new { @class = "control-label col-md-2" })
+
+            @Html.DropDownList("experience", new List<SelectListItem>
+           { new SelectListItem { Text="1",Value="1" },
+           new SelectListItem { Text="2",Value="2" },
+           new SelectListItem { Text="3",Value="3" },
+           new SelectListItem { Text="4",Value="4" },
+           new SelectListItem { Text="5",Value="5" },
+             new SelectListItem { Text="6",Value="6" },
+           new SelectListItem { Text="7",Value="7" },
+           new SelectListItem { Text="8",Value="8" }
+
+           }, "select years of experience"
+               )
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.education, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.DropDownList("education", new List<SelectListItem>
+           { new SelectListItem { Text="angular",Value="angular" },
+           new SelectListItem { Text="web",Value="web" },
+           new SelectListItem { Text="android",Value="android" },
+            new SelectListItem { Text="mobile",Value="mobile" },
+             new SelectListItem { Text="java",Value="java" },
+           new SelectListItem { Text="data mining",Value="data mining" },
+           new SelectListItem { Text="NoSQL",Value="NoSQL" },
+            new SelectListItem { Text="ERP",Value="ERP" }
+
+           }, "select specialty"
+               )
+        </div>
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.profil, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.DropDownList("profil", new List<SelectListItem>
+           { new SelectListItem { Text="engineer",Value="engineer" },
+           new SelectListItem { Text="researcher",Value="researcher" },
+           new SelectListItem { Text="data scientist",Value="data scientist" },
+           new SelectListItem { Text="bac+3",Value="bac+3" },
+           new SelectListItem { Text="ERP consultant",Value="ERP consultant" },
+           new SelectListItem { Text="scrum master",Value= "scrum master" }
+
+           }, "select profil"
+               )
+        </div>
+
+       
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-primary" />
+               
+            </div>
+        </div>
+
+       
+
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+@if (ViewBag.msgNB != null)
+{
+    <script type="text/javascript">
+    window.onload = function () {
+        alert("@ViewBag.msg");
+    };
+    </script>
+}
+

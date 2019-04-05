@@ -1,0 +1,121 @@
+﻿@model WebMap.Models.MandateViewModel
+
+@{
+   
+    Layout = "~/Views/Shared/_MyTemplatepage.cshtml";
+}
+
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+  
+        <style>
+
+
+            .card-box.cus1 {
+    //background: red;
+}
+
+.card-box.cus1 .row{
+    margin-left:480px;
+   // background: gold;
+}
+
+
+input#DateBegin {
+    width: 365px;
+}
+
+input#DateEnd {
+    width: 365px;
+}
+
+h3.card-title {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 51px;
+    font-weight: 800 !important;
+
+
+}
+        </style>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @*<div class="col-sm-3 col-md-2 col-xs-6">
+                <div class="form-group form-focus">
+                    <label class="control-label">From</label>
+                    <div class="cal-icon"><input class="form-control floating datetimepicker" type="text"></div>
+                </div>
+            </div>*@
+        <div class="card-box cus1">
+            <h3 class="card-title">Add Mandate</h3>
+            <div class="row">
+                <div class="col-md-8 offset-md-4">
+                   
+                       
+                            <div class="form-group form-focus">
+                                @Html.LabelFor(model => model.DateBegin, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-12">
+                                    @Html.EditorFor(model => model.DateBegin, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.DateBegin, "", new { @class = "text-danger" })
+
+                                </div>
+                            </div>
+                            <br />
+                            <br />
+                            <br />
+
+                            <div class="form-group form-focus">
+                                @Html.LabelFor(model => model.DateEnd, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-5">
+                                    @Html.EditorFor(model => model.DateEnd, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.DateEnd, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                
+
+
+                    <div class="form-group form-focus">
+                        @Html.LabelFor(model => model.Cost, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-5">
+                            @Html.EditorFor(model => model.Cost, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Cost, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                   <div class="form-group form-focus">
+                        @Html.LabelFor(model => model.mandat, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-12">
+                            @Html.EnumDropDownListFor(model => model.mandat, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.mandat, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <br />
+                    <br />
+                    <h2>@ViewBag.text</h2>
+                    <div class="form-group">
+                        @*<div class="col-md-offset-2 col-md-10"*@>
+                        <div class="text-center m-t-20">
+                            <input type="submit" value="Create" class="btn btn-primary btn-lg" />
+
+                           
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+}
+        
+          
+            <div>
+                @Html.ActionLink("Back to List", "Index")
+            </div>

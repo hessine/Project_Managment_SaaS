@@ -1,0 +1,19 @@
+﻿@model WebMap.Models.SkillsViewModels
+ 
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_MyTemplatepage.cshtml";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div><textarea class="example-default-value" id="example"></textarea></div>
+   
+
+
+@Html.DropDownList("name", (SelectList)ViewData["skill"],new { onchange = "getval(this);" })
+<button class="btn btn-primary btn-lg" type="submit">Save &amp; update</button>
+} 

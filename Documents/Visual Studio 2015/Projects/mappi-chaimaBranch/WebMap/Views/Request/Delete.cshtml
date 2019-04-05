@@ -1,0 +1,98 @@
+﻿@model WebMap.Models.RequestViewModel
+<script src="~/Scripts/jquery-1.12.4.min.js"></script>
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_TemplateClient.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>RequestViewModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DateBegin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateBegin)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateEnd)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateEnd)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateDeposit)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateDeposit)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.subject)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.subject)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.coast)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.coast)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nbrResource)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nbrResource)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ClientId)
+        </dt>
+
+       
+                
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+     @Html.Raw(TempData["msg"])
+
+        <div id="dialog" title="Error Registering">
+            <p>@ViewBag.ms</p>
+        </div>
+
+        @*<script>
+    $(function() {
+    $("#dialog").dialog();
+    });
+        </script>*@
+
+
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-primary" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+
+        
+
+
+    }
+</div>
+
+

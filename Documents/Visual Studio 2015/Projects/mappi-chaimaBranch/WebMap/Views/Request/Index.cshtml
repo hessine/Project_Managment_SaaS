@@ -1,0 +1,101 @@
+﻿@model IEnumerable<WebMap.Models.RequestViewModel>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_TemplateClient.cshtml";
+}
+
+<h2>My Requests</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.RequestId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.subject)
+        </th>
+        
+        <th>
+            @Html.DisplayNameFor(model => model.DateBegin)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateEnd)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateDeposit)
+        </th>
+        
+        <th>
+            @Html.DisplayNameFor(model => model.coast)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nbrResource)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.state)
+        </th>
+        
+        
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.RequestId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.subject)
+        </td>
+       
+        <td>
+            @Html.DisplayFor(modelItem => item.DateBegin)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateEnd)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateDeposit)
+        </td>
+        
+        <td>
+            @Html.DisplayFor(modelItem => item.coast)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nbrResource)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.state)
+        </td>
+        
+        
+        <td>
+           
+
+                       
+
+            @if (item.state == 0)
+            { @Html.ActionLink("Edit", "Edit", new { id = item.RequestId, disabled = "disabled" }) <span>|</span>
+                @Html.ActionLink("Details", "Details", new { id = item.RequestId, disabled = "disabled" })<span>|</span>
+                @Html.ActionLink("Delete", "Delete", new { id = item.RequestId, disabled = "disabled" })
+
+            }
+
+
+        </td>
+    </tr>
+
+}
+    @*@Html.Raw(TempData["msg"])*@
+
+</table>
+
+
+
+
