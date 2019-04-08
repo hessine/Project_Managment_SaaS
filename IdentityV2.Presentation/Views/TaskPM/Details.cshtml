@@ -1,0 +1,106 @@
+﻿@model IdentityV2.Presentation.Models.TaskPMVM
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_MyTemplatepage.cshtml";
+
+}
+
+<h2>Details</h2>
+<h2>Task Details</h2>
+
+
+@*new*@
+<div class="card-box m-b-0">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="profile-view">
+
+
+
+
+
+
+                <div class="profile-basic">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="profile-info-left">
+                                <h3 class="user-name m-t-0">@Html.DisplayFor(model => model.Name)</h3>
+                                <small class="text-muted">@Html.DisplayFor(model => model.Status)</small>
+                                <div class="staff-id">Project ID : @Html.DisplayFor(model => model.ProjectId)</div>
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <ul class="personal-info">
+                                <li>
+                                    <span class="title">Project Name:</span>
+                                   
+                                    <span class="text">@Html.DisplayFor(model => model.ProjectName)</span>
+
+                                    
+                                </li>
+                                <li>
+                                    <span class="title">Start Date:</span>
+                                    <span class="text">@Html.DisplayFor(model => model.StartDate)</span>
+                                </li>
+                                <li>
+                                    <span class="title">DeadLine!!:</span>
+                                    <span class="text">@Html.DisplayFor(model => model.DeadLine)</span>
+                                </li>
+                                <li>
+                                    <span class="title">Status:</span>
+                                    <span class="text">@Html.DisplayFor(model => model.Status)</span>
+                                </li>
+                               
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+@*/new*@
+
+
+
+<br />
+<div class="card-box m-b-0">
+    <h3>Date informations</h3>
+    <ul class="personal-info">
+        <li>
+            <span class="title">Begin Date:</span>
+            <div class="cal-icon"> <span class="text">@Html.DisplayFor(model => model.StartDate.Date)</span></div>
+        </li>
+        <li>
+            <span class="title">DeadLine!!:</span>
+            <div class="cal-icon"><span class="text">@Html.DisplayFor(model => model.DeadLine.Date)</span></div>
+        </li>
+
+     
+
+    </ul>
+    <span class="label label-success-border">Working</span>
+    <hr />
+    <h4>Project Description :</h4>
+     
+    <span class="text">@Html.DisplayFor(model => model.ProjectDesc)</span>
+
+
+    <hr />
+ <!--   <div class="staff-msg"><a onclick=showskills() class="btn btn-primary">Show Project Skills</a>     
+     <a onclick=showresources() class="btn btn-primary">Show Project Resources</a></div>-->
+</div>
+<br />
+<!-- ... -->
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

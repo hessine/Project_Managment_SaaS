@@ -1,0 +1,151 @@
+﻿@model IdentityV2.Presentation.Models.ProjectViewModel
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_MyTemplatepage.cshtml";
+}
+
+<h2>Details</h2>
+<h2>Project Details</h2>
+
+@*new*@
+<div class="card-box m-b-0">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="profile-view">
+                <div class="profile-img-wrap">
+                    <div class="profile-img">
+                        <img src="@Url.Content(Model.Picture)" width="250" height="250" />
+                    </div>
+                </div>
+                <div class="profile-basic">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="profile-info-left">
+                                <h3 class="user-name m-t-0">@Html.DisplayFor(model => model.Name)</h3>
+                                <h5 class="company-role m-t-0 m-b-0">@Html.DisplayFor(model => model.Adress.Country)</h5>
+                                <small class="text-muted">@Html.DisplayFor(model => model.Adress.ZipCode)</small>
+                                <div class="staff-id">Project ID : @Html.DisplayFor(model => model.ProjectId)</div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <ul class="personal-info">
+                                <li>
+                                    <span class="title">Address:</span>
+                                    <span class="text">@Html.DisplayFor(model => model.Adress.Address)</span>
+                                </li>
+                                <li>
+                                    <span class="title">Country:</span>
+                                    <span class="text">@Html.DisplayFor(model => model.Adress.Country)</span>
+                                </li>
+                                <li>
+                                    <span class="title">Zip Code:</span>
+                                    <span class="text">@Html.DisplayFor(model => model.Adress.ZipCode)</span>
+                                </li>
+                                <li>
+                                    <span class="title">Recources Number:</span>
+                                    <span class="text">@Html.DisplayFor(model => model.TotalNbrRessources)</span>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@*/new*@
+<br />
+<div class="card-box m-b-0">
+    <h3>Date informations</h3>
+    <ul class="personal-info">
+        <li>
+            <span class="title">Begin Date:</span>
+            <div class="cal-icon"> <span class="text">@Html.DisplayFor(model => model.DateBegin.Date)</span></div>
+        </li>
+        <li>
+            <span class="title">End Date:</span>
+            <div class="cal-icon"><span class="text">@Html.DisplayFor(model => model.DateEnd.Date)</span></div>
+        </li>
+    </ul>
+    <span class="label label-success-border">Working</span>
+    <hr />
+    <h4>Project Description :</h4>
+    <span class="text">@Html.DisplayFor(model => model.Description)</span>
+    <hr />
+    <div class="staff-msg"><a onclick=showskills() class="btn btn-primary">Show Project Skills</a>      
+</div>
+<br />
+
+<div id="chart_div" style="visibility: hidden"></div>
+<br />
+<div id="tmpbody" style="visibility: hidden">
+
+    
+</div>
+
+
+
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ProjectId }) |
+    @Html.ActionLink("Add Skills to project", "Addskillsproject", new { id = Model.ProjectId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+
+                        // Load the Visualization API and the corechart package.
+                        google.charts.load('current', { 'packages': ['corechart'] });
+
+                        // Set a callback to run when the Google Visualization API is loaded.
+                        google.charts.setOnLoadCallback(drawChart);
+
+                        // Callback that creates and populates a data table,
+                        // instantiates the pie chart, passes in the data and
+                        // draws it.
+                        function drawChart() {
+
+                            // Create the data table.
+                            var data = new google.visualization.DataTable();
+                            data.addColumn('string', 'Skill');
+                            data.addColumn('number', 'Part');
+
+                            var str = '@ViewBag.skills';
+                            var i = 0;
+                            while (str.length != 0) {
+
+                                var n = str.indexOf("/");
+                                var str2 = str.substring(i, n);
+                                str = str.replace(str2, '');
+                                str = str.substring(1);
+                                data.addRows([
+                              [str2, 1]
+                                ]);
+                            }
+
+
+                            // Set chart options
+                            var options = {
+                                'title': 'Project Skills',
+                                'width': 1000,
+                                'height': 350
+                            };
+
+                            // Instantiate and draw our chart, passing in some options.
+                            var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+                            chart.draw(data, options);
+                        }
+
+                        function showskills() {
+
+                            var x = document.getElementById('i');
+                            x.style.visibility = 'visible';     // Show
+
+                        }
+
+</script>
