@@ -75,8 +75,10 @@
   <ItemGroup>
     <Compile Include="Entities\Adress.cs" />
     <Compile Include="Entities\Category.cs" />
+    <Compile Include="Entities\Comment.cs" />
     <Compile Include="Entities\Company.cs" />
     <Compile Include="Entities\Documents.cs" />
+    <Compile Include="Entities\Events.cs" />
     <Compile Include="Entities\History.cs" />
     <Compile Include="Entities\Project.cs" />
     <Compile Include="Entities\TaskPM.cs" />

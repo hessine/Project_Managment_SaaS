@@ -142,6 +142,6 @@ C:\Users\thinkpad\source\repos\PI_Final\PI-Saas-4Arctic1\IdentityV2.Domain\bin\D
 C:\Users\thinkpad\source\repos\PI_Final\PI-Saas-4Arctic1\IdentityV2.Domain\bin\Debug\Stripe.net.pdb
 C:\Users\thinkpad\source\repos\PI_Final\PI-Saas-4Arctic1\IdentityV2.Domain\bin\Debug\Stripe.net.xml
 C:\Users\thinkpad\source\repos\PI_Final\PI-Saas-4Arctic1\IdentityV2.Domain\bin\Debug\System.Collections.Immutable.xml
-C:\Users\thinkpad\source\repos\PI_Final\PI-Saas-4Arctic1\IdentityV2.Domain\obj\Debug\IdentityV2.Domain.csprojResolveAssemblyReference.cache
 C:\Users\thinkpad\source\repos\PI_Final\PI-Saas-4Arctic1\IdentityV2.Domain\obj\Debug\IdentityV2.Domain.dll
 C:\Users\thinkpad\source\repos\PI_Final\PI-Saas-4Arctic1\IdentityV2.Domain\obj\Debug\IdentityV2.Domain.pdb
+C:\Users\thinkpad\source\repos\PI_Final\PI-Saas-4Arctic1\IdentityV2.Domain\obj\Debug\IdentityV2.Domain.csprojResolveAssemblyReference.cache

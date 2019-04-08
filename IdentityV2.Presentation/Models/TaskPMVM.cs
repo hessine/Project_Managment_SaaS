@@ -47,6 +47,6 @@ namespace IdentityV2.Presentation.Models
         //nestha9ouha fil index affichage autre attribut de l id x
 
 
-
+        
     }
 }

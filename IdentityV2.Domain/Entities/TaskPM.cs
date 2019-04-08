@@ -37,6 +37,7 @@ namespace IdentityV2.Domain.Entities
         public virtual Project Project { get; set; }
 
         public virtual ICollection<History> Histories { get; set; }
+        public virtual ICollection<Comment> ListCommentaire { get; set; }
 
     }
 }

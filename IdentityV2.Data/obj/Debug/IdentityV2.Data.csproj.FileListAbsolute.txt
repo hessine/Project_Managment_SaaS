@@ -203,9 +203,7 @@ C:\Users\thinkpad\source\repos\PI_Final\PI-Saas-4Arctic1\IdentityV2.Data\bin\Deb
 C:\Users\thinkpad\source\repos\PI_Final\PI-Saas-4Arctic1\IdentityV2.Data\bin\Debug\Stripe.net.xml
 C:\Users\thinkpad\source\repos\PI_Final\PI-Saas-4Arctic1\IdentityV2.Data\bin\Debug\System.Collections.Immutable.xml
 C:\Users\thinkpad\source\repos\PI_Final\PI-Saas-4Arctic1\IdentityV2.Data\obj\Debug\IdentityV2.Data.csprojResolveAssemblyReference.cache
-C:\Users\thinkpad\source\repos\PI_Final\PI-Saas-4Arctic1\IdentityV2.Data\obj\Debug\IdentityV2.Data.Migrations._new.resources
-C:\Users\thinkpad\source\repos\PI_Final\PI-Saas-4Arctic1\IdentityV2.Data\obj\Debug\IdentityV2.Data.Migrations.new1.resources
-C:\Users\thinkpad\source\repos\PI_Final\PI-Saas-4Arctic1\IdentityV2.Data\obj\Debug\IdentityV2.Data.Migrations.dd.resources
-C:\Users\thinkpad\source\repos\PI_Final\PI-Saas-4Arctic1\IdentityV2.Data\obj\Debug\IdentityV2.Data.csproj.GenerateResource.Cache
 C:\Users\thinkpad\source\repos\PI_Final\PI-Saas-4Arctic1\IdentityV2.Data\obj\Debug\IdentityV2.Data.dll
 C:\Users\thinkpad\source\repos\PI_Final\PI-Saas-4Arctic1\IdentityV2.Data\obj\Debug\IdentityV2.Data.pdb
+C:\Users\thinkpad\source\repos\PI_Final\PI-Saas-4Arctic1\IdentityV2.Data\obj\Debug\IdentityV2.Data.Migrations.first.resources
+C:\Users\thinkpad\source\repos\PI_Final\PI-Saas-4Arctic1\IdentityV2.Data\obj\Debug\IdentityV2.Data.csproj.GenerateResource.Cache

@@ -53,8 +53,6 @@ namespace IdentityV2.Presentation.Controllers
         // GET: Category/Create
         public ActionResult Create()
         {
-           
-
             
             return View();
 
@@ -67,9 +65,7 @@ namespace IdentityV2.Presentation.Controllers
             c.CatId = cvm.CatId;
             
             c.CatName = cvm.CatName;
-
-            
-            ICS.Add(c);
+         ICS.Add(c);
             ICS.Commit();
             return RedirectToAction("Index");
         }
@@ -122,5 +118,8 @@ namespace IdentityV2.Presentation.Controllers
 
             return RedirectToAction("Index");
         }
+
+
+
     }
 }

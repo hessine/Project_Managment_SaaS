@@ -16,8 +16,6 @@ namespace IdentityV2.Service
         IEnumerable<TaskPM> SearchTasks(string ch);
 
         IEnumerable<TaskPM> USERbyRole();
-
-      
         IEnumerable<TaskPM> GetTaskPMToDo();
         IEnumerable<TaskPM> GetTaskPMDoing();
         IEnumerable<TaskPM> GetTaskPMDone();

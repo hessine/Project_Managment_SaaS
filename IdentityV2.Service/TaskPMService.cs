@@ -17,38 +17,46 @@ namespace IdentityV2.Service
         {
         }
 
-      
+        public IEnumerable<TaskPM> GetDoingTask()
+        {
+            return GetMany().OfType<TaskPM>();
+        }
+
+        public IEnumerable<TaskPM> GetDoneTask()
+        {
+            return GetMany().OfType<TaskPM>();
+        }
+        IEnumerable<TaskPM> ITaskPMService.GetTaskPMDone()
+        {
+            return GetMany(t => t.Status == "Done").OfType<TaskPM>();
+        }
+
+        IEnumerable<TaskPM> ITaskPMService.GetTaskPMToDo()
+        {
+            return GetMany(a => a.Status == "todo").OfType<TaskPM>();
+
+
+        }
 
         IEnumerable<TaskPM> ITaskPMService.GetTaskPMDoing()
         {
             return GetMany(t => t.Status == "Doing").OfType<TaskPM>();
         }
-
-        public IEnumerable<TaskPM> GetTaskPMDone()
-        {
-            return GetMany(t => t.Status == "Done").OfType<TaskPM>();
-        }
-
-        public IEnumerable<TaskPM> GetTaskPMToDo()
-        {
-            return GetMany(a => a.Status == "todo").OfType<TaskPM>();
-        }
-
         public IEnumerable<TaskPM> SearchTasks(string ch)
         {
-        
+
             IEnumerable<TaskPM> TaskDomain = GetMany();
             if (!String.IsNullOrEmpty(ch))
             {
                 TaskDomain = GetMany(x => x.Name.Contains(ch));
             }
             return TaskDomain;
-        
 
 
 
 
-    }
+
+        }
 
         public IEnumerable<TaskPM> USERbyRole()
         {
@@ -64,20 +72,22 @@ namespace IdentityV2.Service
         {
             throw new NotImplementedException();
         }
+
+
     }
-    
 
 
 
 
-        /*   IEnumerable<TaskPM> ITaskPMService.GetProjectavailable()
-           {
-               return GetMany(t => t.Etat == 1).OfType<Project>();
-           }*/
 
-        /* IEnumerable<TaskPM> ITaskPMService.GetProjectWaiting()
-         {
-             return GetMany(t => t.Etat == 0).OfType<Project>();
-         }*/
-    
+    /*   IEnumerable<TaskPM> ITaskPMService.GetProjectavailable()
+       {
+           return GetMany(t => t.Etat == 1).OfType<Project>();
+       }*/
+
+    /* IEnumerable<TaskPM> ITaskPMService.GetProjectWaiting()
+     {
+         return GetMany(t => t.Etat == 0).OfType<Project>();
+     }*/
+
 }

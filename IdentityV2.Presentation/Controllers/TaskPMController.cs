@@ -37,7 +37,7 @@ namespace  IdentityV2.Presentation.Controllers
 
         ITaskPMService MyTaskService;
         TaskPMService ps = new TaskPMService();
-
+        ICommentService MycommentService;
         IUserService MyUserService;
         IServiceProject MyProjectService;
 
@@ -52,6 +52,7 @@ namespace  IdentityV2.Presentation.Controllers
             MyTaskService = new TaskPMService();
             MyProjectService = new ServiceProject();
             MyUserService = new UserService();
+            MycommentService = new CommentService();
         }
 
 
@@ -113,6 +114,7 @@ namespace  IdentityV2.Presentation.Controllers
             pvm.Status = p.Status;
             pvm.ProjectName = MyProjectService.GetById(p.ProjectId).Name;
             pvm.ProjectDesc = MyProjectService.GetById(p.ProjectId).Description;
+          //  pvm.commentName = MycommentService.GetById(p.ListCommentaire<Comment>).Text;
 
 
             //pvm.ProjectSkills = p.ProjectSkills;
@@ -122,6 +124,51 @@ namespace  IdentityV2.Presentation.Controllers
             return View(pvm);
 
         }
+
+
+
+
+
+
+
+
+
+       /* public ActionResult com(int id)
+        {
+            ICommentService MycommentService= new CommentService();
+
+            // string userID = Membership.GetUser().ProviderUserKey.ToString();
+
+            //var s = sps.listskills(id);
+            var p = MyTaskService.GetById(id);
+
+
+            foreach (var s in MycommentService.GetCommentByTask())
+
+                TaskPMVM pvm = new TaskPMVM();
+
+            pvm.TaskId = p.TaskId;
+            pvm.Name = p.Name;
+            pvm.StartDate = p.StartDate;
+            pvm.DeadLine = p.DeadLine;
+            pvm.Status = p.Status;
+            pvm.ProjectName = MyProjectService.GetById(p.ProjectId).Name;
+            pvm.ProjectDesc = MyProjectService.GetById(p.ProjectId).Description;
+            //  pvm.commentName = MycommentService.GetById(p.ListCommentaire<Comment>).Text;
+
+
+            //pvm.ProjectSkills = p.ProjectSkills;
+            //  pvm.ListResource = p.ListResource;
+
+
+            return View(pvm);
+
+        }*/
+
+
+
+
+
 
         // GET: TaskPM/Create
         public ActionResult Create()
@@ -137,6 +184,9 @@ namespace  IdentityV2.Presentation.Controllers
             //viewbag :variable pour tronsporter les données du controller lil vue 
             return View();
         }
+
+
+
 
         // POST: TaskPM/Create
         [HttpPost]
@@ -245,6 +295,236 @@ namespace  IdentityV2.Presentation.Controllers
 
         }
 
-       
+
+        //**************************************hessine*************************************************//
+
+        public ActionResult Assign(int id)
+        {
+
+            TaskPM p = MyTaskService.GetById(id);
+            p.Status = "doing";
+            MyTaskService.Update(p);
+            MyTaskService.Commit();
+
+            return RedirectToAction("Doing");
+        }
+
+        public ActionResult Assign2(int id)
+        {
+
+            TaskPM p = MyTaskService.GetById(id);
+            p.Status = "done";
+            MyTaskService.Update(p);
+            MyTaskService.Commit();
+
+            return RedirectToAction("Done");
+        }
+
+
+
+        public ActionResult Index2()
+        {
+            return PartialView("Calender");
+        }
+
+        public ActionResult ToDo()
+        {
+            string currentUserId = User.Identity.GetUserId();
+            List<TaskPMVM> lists = new List<TaskPMVM>();
+           foreach (var p in MyTaskService.GetTaskPMavailable())
+          //   foreach (var p in MyTaskService.GetTaskPMToDo())
+                if (currentUserId == p.UserId)
+                {
+                    {
+                        TaskPMVM pvm = new TaskPMVM();
+                        pvm.TaskId = p.TaskId;
+                        pvm.Name = p.Name;
+                        pvm.StartDate = p.StartDate;
+                        pvm.EndDate = p.EndDate;
+                        pvm.Status = p.Status;
+                        pvm.DeadLine = p.DeadLine;
+                        pvm.ProjectId = p.ProjectId;
+                        pvm.ProjectName = MyProjectService.GetById(p.ProjectId).Name;
+                        lists.Add(pvm);
+                    }
+                }
+            //return View(lists);
+            return PartialView("ToDo", lists);
+        }
+
+        public ActionResult Doing()
+        {
+            List<TaskPMVM> lists = new List<TaskPMVM>();
+           // foreach (var p in MyTaskService.GetTaskPMDoing())
+             foreach (var p in MyTaskService.GetTaskPMavailable())
+            {
+                TaskPMVM pvm = new TaskPMVM();
+                pvm.TaskId = p.TaskId;
+                pvm.Name = p.Name;
+                pvm.StartDate = p.StartDate;
+                pvm.EndDate = p.EndDate;
+                pvm.Status = p.Status;
+                pvm.DeadLine = p.DeadLine;
+                pvm.ProjectId = p.ProjectId;
+                pvm.ProjectName = MyProjectService.GetById(p.ProjectId).Name;
+                lists.Add(pvm);
+
+            }
+            return View(lists);
+            // return PartialView("Doing", lists);
+        }
+
+
+
+        public ActionResult Done()
+        {
+            List<TaskPMVM> lists = new List<TaskPMVM>();
+          //  foreach (var p in MyTaskService.GetTaskPMDone())
+             foreach (var p in MyTaskService.GetTaskPMavailable())
+            {
+                TaskPMVM pvm = new TaskPMVM();
+                pvm.TaskId = p.TaskId;
+                pvm.Name = p.Name;
+                pvm.StartDate = p.StartDate;
+                pvm.EndDate = p.EndDate;
+                pvm.Status = p.Status;
+                pvm.DeadLine = p.DeadLine;
+                pvm.ProjectId = p.ProjectId;
+                pvm.ProjectName = MyProjectService.GetById(p.ProjectId).Name;
+                lists.Add(pvm);
+
+            }
+            return View(lists);
+            // return PartialView("Done", lists);
+        }
+
+        public ActionResult DetailsTD(int id)
+        {
+            //var s = sps.listskills(id);
+            var p = MyTaskService.GetById(id);
+            TaskPMVM pvm = new TaskPMVM();
+
+            pvm.TaskId = p.TaskId;
+            pvm.Name = p.Name;
+            pvm.StartDate = p.StartDate;
+            pvm.DeadLine = p.DeadLine;
+            pvm.Status = p.Status;
+            pvm.ProjectName = MyProjectService.GetById(p.ProjectId).Name;
+            pvm.ProjectDesc = MyProjectService.GetById(p.ProjectId).Description;
+
+            //pvm.ProjectSkills = p.ProjectSkills;
+            //  pvm.ListResource = p.ListResource;
+
+
+            return View(pvm);
+        }
+
+
+
+        public PartialViewResult GetComments(int TaskId)
+        {
+            var Comments = new List<CommentVM>();
+            foreach (Comment p in MycommentService.GetMany())
+            {
+                if (p.TaskId == TaskId)
+                {
+                    Comments.Add(new CommentVM()
+                    {
+
+                        CommentId = p.CommentId,
+                        Text = p.Text
+                    });
+                }
+
+
+            }
+
+            return PartialView("Comments", Comments);
+        }
+
+
+        [HttpPost]
+        public ActionResult PostComment(string Text, int TaskId)
+        {
+
+
+            Comment comment = new Comment()
+            {
+                Text = Text,
+                TaskId = TaskId
+
+            };
+
+            MycommentService.Add(comment);
+            MycommentService.Commit();
+
+
+
+            return RedirectToAction("Detail");
+
+        }
+
+
+
+
+
+
+     /*   public ActionResult GetAllComments()
+        {
+            var Comments = new List<CommentVM>();
+            foreach (Comment p in MycommentService.GetMany())
+            {
+             //   if (p.TaskId == idTask)
+              // {
+                    Comments.Add(new CommentVM()
+                    {
+                        //TaskId = p.TaskId,
+                       // CommentId = p.CommentId,
+                        Text = p.Text
+                    });
+              //  }
+
+
+            }
+
+            return View(Comments);
+        }*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
 }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

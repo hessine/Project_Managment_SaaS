@@ -57,9 +57,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CategoryService.cs" />
+    <Compile Include="CommentService.cs" />
     <Compile Include="CompanyService.cs" />
     <Compile Include="DocumentService.cs" />
     <Compile Include="ICategoryService.cs" />
+    <Compile Include="ICommentService.cs" />
     <Compile Include="ICompanyService.cs" />
     <Compile Include="IDocumentService.cs" />
     <Compile Include="IServiceProject.cs" />

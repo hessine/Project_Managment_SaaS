@@ -27,9 +27,10 @@ namespace IdentityV2.Data
         public DbSet<TaskPM> Tasks { get; set; }
         public DbSet<History> Histories { get; set; }
         public DbSet<Project> Projects { get; set; }
-      //  public DbSet<Category> Categories { get; set; }
-       // public DbSet<Document> Documents { get; set; }
-
+        //  public DbSet<Category> Categories { get; set; }
+        // public DbSet<Document> Documents { get; set; }
+        public DbSet<Events> events { get; set; }
+        public DbSet<Comment> Comment { get; set; }
 
         public System.Data.Entity.DbSet<IdentityV2.Domain.Entities.Company> Companies { get; set; }
 
