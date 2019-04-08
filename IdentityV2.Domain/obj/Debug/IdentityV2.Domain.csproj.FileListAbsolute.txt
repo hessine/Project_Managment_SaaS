@@ -1,0 +1,126 @@
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\IdentityV2.Domain.dll.config
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\IdentityV2.Domain.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\IdentityV2.Domain.pdb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\EntityFramework.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\EntityFramework.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Domain\obj\Debug\IdentityV2.Domain.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Domain\obj\Debug\IdentityV2.Domain.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Domain\obj\Debug\IdentityV2.Domain.pdb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\Stripe.net.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\System.Collections.Immutable.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\Newtonsoft.Json.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\Stripe.net.pdb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\Stripe.net.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\System.Collections.Immutable.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\IdentityV2.Domain.dll.config
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\IdentityV2.Domain.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\IdentityV2.Domain.pdb
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\EntityFramework.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\Stripe.net.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\System.Collections.Immutable.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\EntityFramework.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\Stripe.net.pdb
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\Stripe.net.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\System.Collections.Immutable.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Domain\obj\Debug\IdentityV2.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Domain\obj\Debug\IdentityV2.Domain.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\IdentityV2.Presentation\IdentityV2.Domain\obj\Debug\IdentityV2.Domain.pdb
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\IdentityV2.Domain.dll.config
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\IdentityV2.Domain.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\IdentityV2.Domain.pdb
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\EntityFramework.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\Stripe.net.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\System.Collections.Immutable.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\EntityFramework.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\Stripe.net.pdb
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\Stripe.net.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\System.Collections.Immutable.xml
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\obj\Debug\IdentityV2.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\obj\Debug\IdentityV2.Domain.dll
+C:\Users\Toshiba\Desktop\identity temchi by Chams\identity zedt 3lih template mriguela\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\obj\Debug\IdentityV2.Domain.pdb
+D:\nada\temp+entity\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\IdentityV2.Domain.dll.config
+D:\nada\temp+entity\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\IdentityV2.Domain.dll
+D:\nada\temp+entity\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\IdentityV2.Domain.pdb
+D:\nada\temp+entity\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\EntityFramework.dll
+D:\nada\temp+entity\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\nada\temp+entity\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\nada\temp+entity\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\nada\temp+entity\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\Newtonsoft.Json.dll
+D:\nada\temp+entity\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\Stripe.net.dll
+D:\nada\temp+entity\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\System.Collections.Immutable.dll
+D:\nada\temp+entity\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\EntityFramework.xml
+D:\nada\temp+entity\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\nada\temp+entity\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\nada\temp+entity\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\nada\temp+entity\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\Newtonsoft.Json.xml
+D:\nada\temp+entity\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\Stripe.net.pdb
+D:\nada\temp+entity\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\Stripe.net.xml
+D:\nada\temp+entity\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\bin\Debug\System.Collections.Immutable.xml
+D:\nada\temp+entity\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\obj\Debug\IdentityV2.Domain.csprojResolveAssemblyReference.cache
+D:\nada\temp+entity\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\obj\Debug\IdentityV2.Domain.dll
+D:\nada\temp+entity\temp+entity\IdentityV2.Presentation\IdentityV2.Domain\obj\Debug\IdentityV2.Domain.pdb
+C:\Users\chaima\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\IdentityV2.Domain.dll.config
+C:\Users\chaima\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\IdentityV2.Domain.dll
+C:\Users\chaima\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\IdentityV2.Domain.pdb
+C:\Users\chaima\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\EntityFramework.dll
+C:\Users\chaima\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\chaima\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\chaima\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\chaima\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\Newtonsoft.Json.dll
+C:\Users\chaima\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\Stripe.net.dll
+C:\Users\chaima\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\System.Collections.Immutable.dll
+C:\Users\chaima\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\EntityFramework.xml
+C:\Users\chaima\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\chaima\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\chaima\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\chaima\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\Newtonsoft.Json.xml
+C:\Users\chaima\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\Stripe.net.pdb
+C:\Users\chaima\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\Stripe.net.xml
+C:\Users\chaima\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\System.Collections.Immutable.xml
+C:\Users\chaima\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation-nada\IdentityV2.Domain\obj\Debug\IdentityV2.Domain.dll
+C:\Users\chaima\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation-nada\IdentityV2.Domain\obj\Debug\IdentityV2.Domain.pdb
+C:\Users\chaima\Documents\Visual Studio 2015\Projects\IdentityV2.Presentation-nada\IdentityV2.Domain\obj\Debug\IdentityV2.Domain.csprojResolveAssemblyReference.cache
+C:\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\IdentityV2.Domain.dll.config
+C:\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\IdentityV2.Domain.dll
+C:\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\IdentityV2.Domain.pdb
+C:\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\EntityFramework.dll
+C:\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\Newtonsoft.Json.dll
+C:\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\Stripe.net.dll
+C:\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\System.Collections.Immutable.dll
+C:\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\EntityFramework.xml
+C:\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\Newtonsoft.Json.xml
+C:\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\Stripe.net.pdb
+C:\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\Stripe.net.xml
+C:\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\System.Collections.Immutable.xml
+C:\IdentityV2.Presentation-nada\IdentityV2.Domain\obj\Debug\IdentityV2.Domain.csprojResolveAssemblyReference.cache
+C:\IdentityV2.Presentation-nada\IdentityV2.Domain\obj\Debug\IdentityV2.Domain.dll
+C:\IdentityV2.Presentation-nada\IdentityV2.Domain\obj\Debug\IdentityV2.Domain.pdb
