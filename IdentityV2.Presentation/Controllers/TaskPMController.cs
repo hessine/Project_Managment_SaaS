@@ -158,7 +158,7 @@ namespace  IdentityV2.Presentation.Controllers
                 DeadLine = taskVM.DeadLine,
                 EndDate = taskVM.EndDate,
                 StartDate = taskVM.StartDate,
-                Status = " to-do",
+                Status = " todo",
                  ProjectId = taskVM.ProjectId,
                  UserId = taskVM.User_Id,
                 leader = currentUserId
