@@ -17,6 +17,23 @@ namespace IdentityV2.Service
         {
         }
 
+      
+
+        IEnumerable<TaskPM> ITaskPMService.GetTaskPMDoing()
+        {
+            return GetMany(t => t.Status == "Doing").OfType<TaskPM>();
+        }
+
+        public IEnumerable<TaskPM> GetTaskPMDone()
+        {
+            return GetMany(t => t.Status == "Done").OfType<TaskPM>();
+        }
+
+        public IEnumerable<TaskPM> GetTaskPMToDo()
+        {
+            return GetMany(a => a.Status == "todo").OfType<TaskPM>();
+        }
+
         public IEnumerable<TaskPM> SearchTasks(string ch)
         {
         
