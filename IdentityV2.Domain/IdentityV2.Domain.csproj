@@ -78,6 +78,7 @@
     <Compile Include="Entities\Company.cs" />
     <Compile Include="Entities\Documents.cs" />
     <Compile Include="Entities\History.cs" />
+    <Compile Include="Entities\Meeting.cs" />
     <Compile Include="Entities\Project.cs" />
     <Compile Include="Entities\TaskPM.cs" />
     <Compile Include="Entities\User.cs" />

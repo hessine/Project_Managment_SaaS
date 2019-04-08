@@ -16,14 +16,14 @@ namespace IdentityV2.Domain.Entities
 
         public string LastName { get; set; }
 
-        /*
+        
         public int CompanyId { get; set; }
 
 
         //prop de navigation
         [ForeignKey("CompanyId")]
         public virtual Company Company { get; set; }
-        */
+        
 
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<User> manager)
         {

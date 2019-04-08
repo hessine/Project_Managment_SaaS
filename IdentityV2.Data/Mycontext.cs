@@ -35,8 +35,8 @@ namespace IdentityV2.Data
 
         // dbset
 
-        /* public DbSet<Company> Companies { get; set; }
-        */
+        
+        
 
     }
 

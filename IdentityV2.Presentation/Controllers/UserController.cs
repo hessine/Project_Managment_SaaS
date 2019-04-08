@@ -6,6 +6,7 @@ using System.Web.Mvc;
 using IdentityV2.Data;
 using IdentityV2.Domain.Entities;
 using IdentityV2.Presentation.Models;
+using IdentityV2.Service;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 
@@ -15,6 +16,8 @@ namespace IdentityV2.Presentation.Controllers
     public class UserController : Controller
 
     {
+
+        UserService US = new UserService();
         MyContext context = new MyContext();
 
 
@@ -82,6 +85,43 @@ namespace IdentityV2.Presentation.Controllers
             var Roles = context.Roles.ToList();
             return View(Roles);
 
+        }
+
+
+
+
+        public ActionResult CreateRole()
+        {
+            return View();
+        }
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult CreateRole(Microsoft.AspNet.Identity.EntityFramework.IdentityRole role)
+        {
+
+            var roleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(context));
+            roleManager.Create(role);
+
+            return RedirectToAction("Role");
+
+        }
+
+
+
+
+        [Authorize(Roles = "Admin")]
+        public ActionResult List()
+        {
+            var Users = new List<User>();
+
+            foreach (var user in US.GetMany())
+            {
+                Users.Add(user);
+            }
+
+            return View(Users);
         }
 
 

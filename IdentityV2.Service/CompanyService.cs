@@ -18,5 +18,30 @@ namespace IdentityV2.Service
 
         }
 
+
+        public IEnumerable<User> SearchUsersByCompany(int id)
+
+        {
+            IEnumerable<Company> Companies = GetMany();
+            IEnumerable<User> CompanyUsers = null;
+
+            foreach (var company in Companies)
+            {
+                if (company.CompanyId == id)
+                {
+                    CompanyUsers = (IEnumerable<User>)company.Users;
+
+
+
+                }
+
+            }
+
+
+            return CompanyUsers;
+
+
+        }
+
     }
 }

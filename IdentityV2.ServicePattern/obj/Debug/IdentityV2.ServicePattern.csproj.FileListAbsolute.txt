@@ -152,3 +152,25 @@ C:\IdentityV2.Presentation-nada\IdentityV2.ServicePattern\bin\Debug\Microsoft.As
 C:\IdentityV2.Presentation-nada\IdentityV2.ServicePattern\obj\Debug\IdentityV2.ServicePattern.csprojResolveAssemblyReference.cache
 C:\IdentityV2.Presentation-nada\IdentityV2.ServicePattern\obj\Debug\IdentityV2.ServicePattern.dll
 C:\IdentityV2.Presentation-nada\IdentityV2.ServicePattern\obj\Debug\IdentityV2.ServicePattern.pdb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.ServicePattern\bin\Debug\IdentityV2.ServicePattern.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.ServicePattern\bin\Debug\IdentityV2.ServicePattern.pdb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.ServicePattern\bin\Debug\IdentityV2.Data.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.ServicePattern\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.ServicePattern\bin\Debug\Stripe.net.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.ServicePattern\bin\Debug\System.Collections.Immutable.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.ServicePattern\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.ServicePattern\bin\Debug\IdentityV2.Domain.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.ServicePattern\bin\Debug\EntityFramework.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.ServicePattern\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.ServicePattern\bin\Debug\IdentityV2.Data.pdb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.ServicePattern\bin\Debug\Newtonsoft.Json.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.ServicePattern\bin\Debug\Stripe.net.pdb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.ServicePattern\bin\Debug\Stripe.net.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.ServicePattern\bin\Debug\System.Collections.Immutable.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.ServicePattern\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.ServicePattern\bin\Debug\IdentityV2.Domain.pdb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.ServicePattern\bin\Debug\EntityFramework.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.ServicePattern\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.ServicePattern\obj\Debug\IdentityV2.ServicePattern.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.ServicePattern\obj\Debug\IdentityV2.ServicePattern.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.ServicePattern\obj\Debug\IdentityV2.ServicePattern.pdb
