@@ -209,3 +209,9 @@ C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV
 C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.Data\obj\Debug\IdentityV2.Data.csproj.GenerateResource.Cache
 C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.Data\obj\Debug\IdentityV2.Data.dll
 C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.Data\obj\Debug\IdentityV2.Data.pdb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.Data\bin\Debug\DHTMLX.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.Data\bin\Debug\DHTMLX.pdb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.Data\bin\Debug\DHTMLX.xml
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.Data\obj\Debug\IdentityV2.Data.Migrations.MeetingMig.resources
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.Data\obj\Debug\IdentityV2.Data.Migrations.UserMig.resources
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.Data\obj\Debug\IdentityV2.Data.Migrations.newMig.resources

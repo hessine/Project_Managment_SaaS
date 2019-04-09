@@ -174,3 +174,6 @@ C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV
 C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.ServicePattern\obj\Debug\IdentityV2.ServicePattern.csprojResolveAssemblyReference.cache
 C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.ServicePattern\obj\Debug\IdentityV2.ServicePattern.dll
 C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.ServicePattern\obj\Debug\IdentityV2.ServicePattern.pdb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.ServicePattern\bin\Debug\DHTMLX.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.ServicePattern\bin\Debug\DHTMLX.pdb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.ServicePattern\bin\Debug\DHTMLX.xml

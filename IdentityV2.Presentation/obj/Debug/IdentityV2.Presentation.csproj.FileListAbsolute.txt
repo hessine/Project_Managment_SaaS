@@ -869,3 +869,6 @@ C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV
 C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.Presentation\obj\Debug\IdentityV2.Presentation.csprojResolveAssemblyReference.cache
 C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.Presentation\obj\Debug\IdentityV2.Presentation.dll
 C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.Presentation\obj\Debug\IdentityV2.Presentation.pdb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.Presentation\bin\DHTMLX.dll
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.Presentation\bin\DHTMLX.pdb
+C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.Presentation\bin\DHTMLX.xml

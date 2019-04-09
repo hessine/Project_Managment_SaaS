@@ -93,6 +93,18 @@
     <Compile Include="Migrations\201904081038112_dd.Designer.cs">
       <DependentUpon>201904081038112_dd.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201904082330369_MeetingMig.cs" />
+    <Compile Include="Migrations\201904082330369_MeetingMig.Designer.cs">
+      <DependentUpon>201904082330369_MeetingMig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904082341169_UserMig.cs" />
+    <Compile Include="Migrations\201904082341169_UserMig.Designer.cs">
+      <DependentUpon>201904082341169_UserMig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904091008172_newMig.cs" />
+    <Compile Include="Migrations\201904091008172_newMig.Designer.cs">
+      <DependentUpon>201904091008172_newMig.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Mycontext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -120,6 +132,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201904081038112_dd.resx">
       <DependentUpon>201904081038112_dd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904082330369_MeetingMig.resx">
+      <DependentUpon>201904082330369_MeetingMig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904082341169_UserMig.resx">
+      <DependentUpon>201904082341169_UserMig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904091008172_newMig.resx">
+      <DependentUpon>201904091008172_newMig.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

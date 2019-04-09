@@ -33,7 +33,7 @@ namespace IdentityV2.Data
 
         public System.Data.Entity.DbSet<IdentityV2.Domain.Entities.Company> Companies { get; set; }
 
-        // dbset
+        public DbSet<Meeting> Meetings { get; set; }
 
         
         

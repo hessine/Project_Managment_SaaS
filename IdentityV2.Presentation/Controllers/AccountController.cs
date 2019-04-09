@@ -11,12 +11,14 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using IdentityV2.Presentation.Models;
+using IdentityV2.Service;
 
 namespace IdentityV2.Presentation.Controllers
 {
     [Authorize]
     public class AccountController : Controller
     {
+        CompanyService CS = new CompanyService();
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
         MyContext context ;
@@ -147,6 +149,10 @@ namespace IdentityV2.Presentation.Controllers
             ViewBag.Name = new SelectList(context.Roles.Where(u => !u.Name.Contains("Admin"))
                 .ToList(), "Name", "Name");
 
+            var MyCompanies = CS.GetMany();
+            ViewBag.ListCompanies = new SelectList(MyCompanies, "CompanyId", "Name");
+
+
             return View();
         }
 
@@ -159,7 +165,15 @@ namespace IdentityV2.Presentation.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = new User { UserName = model.UserName, Email = model.Email };
+                var user = new User
+                {
+                    UserName = model.UserName,
+                    Email = model.Email,
+                    CompanyId = model.CompanyId,
+                    FirstName = model.FirstName,
+                    LastName = model.LastName
+                };
+
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
@@ -181,6 +195,9 @@ namespace IdentityV2.Presentation.Controllers
 
                 ViewBag.Name = new SelectList(context.Roles.Where(u => !u.Name.Contains("Admin"))
                     .ToList(), "Name", "Name");
+
+                ViewBag.Company = new SelectList(context.Companies
+                    .ToList(), "Company", "Company");
 
                 AddErrors(result);
             }

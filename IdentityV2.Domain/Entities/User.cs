@@ -17,7 +17,7 @@ namespace IdentityV2.Domain.Entities
         public string LastName { get; set; }
 
         
-        public int CompanyId { get; set; }
+        public int? CompanyId { get; set; }
 
 
         //prop de navigation
