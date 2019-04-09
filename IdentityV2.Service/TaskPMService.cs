@@ -138,10 +138,10 @@ namespace IdentityV2.Service
             return resultjoin2;
         }
 
-        public IEnumerable<TaskPM> SearchTasks(string ch)
+        public IEnumerable<TaskPM> SearchTasks2(string ch)
         {
 
-            IEnumerable<TaskPM> TaskDomain = GetMany();
+            IEnumerable<TaskPM> TaskDomain = GetTaskPMDoing();
             if (!String.IsNullOrEmpty(ch))
             {
                 TaskDomain = GetMany(x => x.Name.Contains(ch));

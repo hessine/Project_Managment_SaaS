@@ -210,14 +210,11 @@
                             </ul>
                      </li>
                         }
-                    <li class="submenu">
-                        <a href="#"><span> Recrutements Internationale</span> <span class="menu-arrow"></span></a>
-                        <ul class="list-unstyled" style="display: none;">
-                            <li>@Html.ActionLink("Live Chat", "Index", "RTCweb")></li>
-                        </ul>
-                    </li>
+                  @if (this.User.IsInRole("TeamLeader"))
+                  {
                     <li>@Html.ActionLink("Calender", "Index", "Event")></li>
-                    </ul>
+                  }
+                     </ul>
                     </li>
                     <li class="submenu">
                         <a href="#" class="noti-dot"><span>Analytics</span> <span class="menu-arrow"></span></a>

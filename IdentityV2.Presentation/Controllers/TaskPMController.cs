@@ -359,7 +359,8 @@ namespace  IdentityV2.Presentation.Controllers
             string currentUserId = User.Identity.GetUserId();
             List<TaskPMVM> lists = new List<TaskPMVM>();
            // foreach (var p in MyTaskService.GetTaskPMDoing())
-             foreach (var p in MyTaskService.GetTaskPMDoing())
+           //  foreach (var p in MyTaskService.SearchTasks(ch))
+           foreach (var p in MyTaskService.GetTaskPMDoing())
             {
                 if (currentUserId == p.UserId)
                 {
