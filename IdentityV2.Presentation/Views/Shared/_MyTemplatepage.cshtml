@@ -17,6 +17,7 @@
     <link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/MyTemplate/")css/dataTables.bootstrap.min.css" )>
     <link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/MyTemplate/")css/select2.min.css" )>
     <link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/MyTemplate/")css/font-awesome.min.css" )>
+    
 
 </head>
 <body>
@@ -196,16 +197,19 @@
                     <li>@Html.ActionLink("Calender", "Index", "Event")></li>
                     </ul>
                     </li>
+                        @if (this.User.IsInRole("Developer"))
+                        {
                         <li class="submenu">
+
                             <a href="#" class="noti-dot"><span> MyTasks</span> <span class="menu-arrow"></span></a>
                             <ul class="list-unstyled" style="display: none;">
-                                <li>@Html.ActionLink("To DO", "ToDo", "TaskPM")></li>
-                                <li>@Html.ActionLink("Doing", "Doing", "TaskPM")></li>
-                                <li>@Html.ActionLink("Done", "Done", "TaskPM")</li>
-                                <li>@Html.ActionLink("Calender", "Index", "Event")></li>
+                                <li>@Html.ActionLink("New Task", "ToDo", "TaskPM")></li>
+                                <li>@Html.ActionLink("Task in Progress", "Doing", "TaskPM")></li>
+                                <li>@Html.ActionLink("Done Tasks", "Done", "TaskPM")</li>
+                                <li>@Html.ActionLink("Calender", "Index2", "TaskPM")></li>
                             </ul>
-                        </li>
-
+                     </li>
+                        }
                     <li class="submenu">
                         <a href="#"><span> Recrutements Internationale</span> <span class="menu-arrow"></span></a>
                         <ul class="list-unstyled" style="display: none;">
@@ -251,6 +255,9 @@
     <script type="text/javascript" src="@Url.Content("~/Content/MyTemplate/")js/jquery-ui.min.js"></script>
     <script type="text/javascript" src="@Url.Content("~/Content/MyTemplate/")js/jquery.dataTables.min.js"></script>
     <script type="text/javascript" src="@Url.Content("~/Content/MyTemplate/")js/dataTables.bootstrap.min.js"></script>
+    <script type="text/javascript" src="@Url.Content("~/Content/MyTemplate/")js/fullcalendar.min.js"></script>
+    <script type="text/javascript" src="@Url.Content("~/Content/MyTemplate/")js/query.fullcalendar.js"></script>
+
 
 
     <script>

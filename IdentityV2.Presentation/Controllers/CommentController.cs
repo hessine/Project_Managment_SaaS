@@ -25,7 +25,8 @@ namespace IdentityV2.Presentation.Controllers
         public ActionResult Index()
         {
             var comments = new List<CommentVM>();
-            foreach (Comment e in MycommentService.GetMany())
+               foreach (Comment e in MycommentService.GetMany())
+          //  foreach (Comment e in MycommentService.getCommentPerTask(int id))
             {
                 comments.Add(new CommentVM()
                 {

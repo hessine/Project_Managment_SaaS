@@ -13,5 +13,7 @@ namespace IdentityV2.Service
     public interface ICommentService : IService<Comment>
     {
         IEnumerable<Comment> GetCommentByTask(int idTask);
+        IEnumerable<Comment> getCommentPerTask(int id);
+
     }
 }

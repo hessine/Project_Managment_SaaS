@@ -3,11 +3,20 @@
 @{
     ViewBag.Title = "Doing";
     Layout = "~/Views/Shared/_MyTemplatepage.cshtml";
-
 }
 
-<h2>Doing</h2>
+<h2>Doing </h2>
 
+<div id="progressBarToDo">
+
+    <p>@(ViewBag.Percent)%</p>
+    <div class="progress ">
+        <div class="progress-bar" role="progressbar"
+             style="width:@(Html.AttributeEncode(ViewBag.Percent))%"></div>
+
+
+    </div>
+</div>
 
 @using (Html.BeginForm())
 {
@@ -79,7 +88,7 @@
                     @Html.DisplayFor(modelItem => item.Name)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Status)
+                    <span class="label label-success-border">@Html.DisplayFor(modelItem => item.Status)</span>
                 </td>
 
                 <td>

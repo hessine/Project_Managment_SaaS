@@ -1,4 +1,6 @@
-﻿using System;
+﻿using IdentityV2.Presentation.Models;
+using IdentityV2.Service;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -10,7 +12,11 @@ namespace IdentityV2.Presentation.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            TaskPMVM pvm = new TaskPMVM();
+            ITaskPMService ti = new TaskPMService();
+          pvm.nbttotaltask=  ti.NbTaskByStatusToDo();
+            return View(pvm);
+
         }
 
         public ActionResult About()

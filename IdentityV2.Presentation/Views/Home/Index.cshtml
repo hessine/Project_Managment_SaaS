@@ -1,4 +1,5 @@
-﻿@{
+﻿@model IdentityV2.Presentation.Models.TaskPMVM
+@{
     ViewBag.Title = "Home Page";
 
     Layout = "~/Views/Shared/_MyTemplatepage.cshtml";
@@ -30,8 +31,8 @@
                 <div class="dash-widget clearfix card-box">
                     <span class="dash-widget-icon"><i class="fa fa-diamond"></i></span>
                     <div class="dash-widget-info">
-                        <h3>37</h3>
-                        <span>Tasks</span>
+<h3>@Html.DisplayFor(model => model.nbttotaltask)</h3>
+                                                <span>Tasks</span>
                     </div>
                 </div>
             </div>

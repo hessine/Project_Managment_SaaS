@@ -36,6 +36,9 @@
     <tr>
 
 
+        <th>
+            @Html.DisplayNameFor(model => model.TaskId)
+        </th>
 
      
         <th>
@@ -71,6 +74,9 @@
     <tr>
      
         <td>
+            @Html.DisplayFor(modelItem => item.TaskId)
+        </td>
+        <td>
             @Html.DisplayFor(modelItem => item.StartDate)
         </td>
         <td>
@@ -97,7 +103,7 @@
             @Html.ActionLink("Edit", "Edit", new { id = item.TaskId }) |
             @Html.ActionLink("Details", "Details", new { id = item.TaskId }) |
             @Html.ActionLink("Delete", "Delete", new { id = item.TaskId })
-            @Html.ActionLink("Comment", "GetAllComments","Comment")
+            @Html.ActionLink("Comment", "ALLCommentByID", new { id = item.TaskId })
 
 
         </td>

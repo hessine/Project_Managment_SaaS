@@ -12,22 +12,7 @@
 @using (Html.BeginForm())
 {
 
-    <table>
-        <tr>
-            <td>
-                <div>
-                    Search Tasks: @Html.TextBox("searchString")
-                </div>
-            </td>
-            <td>
-                <input type="submit" class="btn btn-primary" value="Search" id="submit" />
-            </td>
-        </tr>
-    </table>
-
-    <br>
-    <br>
-
+  
 
 
     <table class="table">
@@ -79,7 +64,8 @@
                     @Html.DisplayFor(modelItem => item.Name)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Status)
+                    <span class="label label-success-border">@Html.DisplayFor(modelItem => item.Status)</span>
+                    
                 </td>
 
                 <td>

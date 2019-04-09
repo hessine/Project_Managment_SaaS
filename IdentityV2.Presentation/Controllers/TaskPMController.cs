@@ -32,7 +32,7 @@ namespace  IdentityV2.Presentation.Controllers
                 }*/
 
 
-        private ApplicationDbContext db = new ApplicationDbContext();
+        public ApplicationDbContext db = new ApplicationDbContext();
 
 
         ITaskPMService MyTaskService;
@@ -208,7 +208,7 @@ namespace  IdentityV2.Presentation.Controllers
                 DeadLine = taskVM.DeadLine,
                 EndDate = taskVM.EndDate,
                 StartDate = taskVM.StartDate,
-                Status = " todo",
+                Status = "todo",
                  ProjectId = taskVM.ProjectId,
                  UserId = taskVM.User_Id,
                 leader = currentUserId
@@ -314,6 +314,7 @@ namespace  IdentityV2.Presentation.Controllers
 
             TaskPM p = MyTaskService.GetById(id);
             p.Status = "done";
+            p.EndDate = DateTime.Today;
             MyTaskService.Update(p);
             MyTaskService.Commit();
 
@@ -329,10 +330,11 @@ namespace  IdentityV2.Presentation.Controllers
 
         public ActionResult ToDo()
         {
+
             string currentUserId = User.Identity.GetUserId();
             List<TaskPMVM> lists = new List<TaskPMVM>();
-           foreach (var p in MyTaskService.GetTaskPMavailable())
-          //   foreach (var p in MyTaskService.GetTaskPMToDo())
+           //foreach (var p in MyTaskService.GetTaskPMavailable())
+          foreach (var p in MyTaskService.GetTaskPMToDo())
                 if (currentUserId == p.UserId)
                 {
                     {
@@ -354,48 +356,62 @@ namespace  IdentityV2.Presentation.Controllers
 
         public ActionResult Doing()
         {
+            string currentUserId = User.Identity.GetUserId();
             List<TaskPMVM> lists = new List<TaskPMVM>();
            // foreach (var p in MyTaskService.GetTaskPMDoing())
-             foreach (var p in MyTaskService.GetTaskPMavailable())
+             foreach (var p in MyTaskService.GetTaskPMDoing())
             {
-                TaskPMVM pvm = new TaskPMVM();
-                pvm.TaskId = p.TaskId;
-                pvm.Name = p.Name;
-                pvm.StartDate = p.StartDate;
-                pvm.EndDate = p.EndDate;
-                pvm.Status = p.Status;
-                pvm.DeadLine = p.DeadLine;
-                pvm.ProjectId = p.ProjectId;
-                pvm.ProjectName = MyProjectService.GetById(p.ProjectId).Name;
-                lists.Add(pvm);
+                if (currentUserId == p.UserId)
+                {
+                    TaskPMVM pvm = new TaskPMVM();
+                    pvm.TaskId = p.TaskId;
+                    pvm.Name = p.Name;
+                    pvm.StartDate = p.StartDate;
+                    pvm.EndDate = p.EndDate;
+                    pvm.Status = p.Status;
+                    pvm.DeadLine = p.DeadLine;
+                    pvm.ProjectId = p.ProjectId;
+                    pvm.ProjectName = MyProjectService.GetById(p.ProjectId).Name;
+                    IEnumerable<TaskPM> myTodoes = MyTaskService.GetTaskPMDoing().Where(x => x.UserId == currentUserId);
+                 
+                    lists.Add(pvm);
 
+                    //TaskPMVM pvm = new TaskPMVM();
+                    ITaskPMService ti = new TaskPMService();
+                  //  pvm.nbttotaltask = ti.NbTaskByStatusToDo();
+              
+                    ViewBag.Percent = Math.Round(100f * ((float)5 / (float)50));
+                }
             }
-            return View(lists);
-            // return PartialView("Doing", lists);
+           // return View(lists);
+             return PartialView("Doing", lists);
         }
 
 
 
         public ActionResult Done()
         {
+            string currentUserId = User.Identity.GetUserId();
             List<TaskPMVM> lists = new List<TaskPMVM>();
           //  foreach (var p in MyTaskService.GetTaskPMDone())
-             foreach (var p in MyTaskService.GetTaskPMavailable())
+             foreach (var p in MyTaskService.GetTaskPMDone())
             {
-                TaskPMVM pvm = new TaskPMVM();
-                pvm.TaskId = p.TaskId;
-                pvm.Name = p.Name;
-                pvm.StartDate = p.StartDate;
-                pvm.EndDate = p.EndDate;
-                pvm.Status = p.Status;
-                pvm.DeadLine = p.DeadLine;
-                pvm.ProjectId = p.ProjectId;
-                pvm.ProjectName = MyProjectService.GetById(p.ProjectId).Name;
-                lists.Add(pvm);
-
+                if (currentUserId == p.UserId)
+                {
+                    TaskPMVM pvm = new TaskPMVM();
+                    pvm.TaskId = p.TaskId;
+                    pvm.Name = p.Name;
+                    pvm.StartDate = p.StartDate;
+                    pvm.EndDate = p.EndDate;
+                    pvm.Status = p.Status;
+                    pvm.DeadLine = p.DeadLine;
+                    pvm.ProjectId = p.ProjectId;
+                    pvm.ProjectName = MyProjectService.GetById(p.ProjectId).Name;
+                    lists.Add(pvm);
+                }
             }
-            return View(lists);
-            // return PartialView("Done", lists);
+          //  return View(lists);
+             return PartialView("Done", lists);
         }
 
         public ActionResult DetailsTD(int id)
@@ -469,30 +485,63 @@ namespace  IdentityV2.Presentation.Controllers
 
 
 
-     /*   public ActionResult GetAllComments()
+        /*   public ActionResult GetAllComments()
+           {
+               var Comments = new List<CommentVM>();
+               foreach (Comment p in MycommentService.GetMany())
+               {
+                //   if (p.TaskId == idTask)
+                 // {
+                       Comments.Add(new CommentVM()
+                       {
+                           //TaskId = p.TaskId,
+                          // CommentId = p.CommentId,
+                           Text = p.Text
+                       });
+                 //  }
+
+
+               }
+
+               return View(Comments);
+           }*/
+
+
+
+
+        //à supp
+
+        public ActionResult ALLCommentByID(int id)
         {
-            var Comments = new List<CommentVM>();
-            foreach (Comment p in MycommentService.GetMany())
+            //  public Task<ActionResult> Index(string searchString)
+
+            // var user = UserManager.FindByIdAsync(System.Web.HttpContext.Current.User.Identity.GetUserId());
+            // user.Id
+
+            //   string currentUserId = User.Identity.GetUserId();
+            ICommentService MycomService = new CommentService();
+         
+            List<CommentVM> lists = new List<CommentVM>();
+            foreach (var p in MycomService.getCommentPerTask(id))
             {
-             //   if (p.TaskId == idTask)
-              // {
-                    Comments.Add(new CommentVM()
-                    {
-                        //TaskId = p.TaskId,
-                       // CommentId = p.CommentId,
-                        Text = p.Text
-                    });
-              //  }
+                //if (currentUserId == p.leader)
+                //{
+                CommentVM pvm = new CommentVM();
+                pvm.TaskId = p.CommentId;
+                pvm.Text= p.Text;
+                
+                //  pvm.ProjectId = p.ProjectId;
 
+                // pvm.ProjectName = MyProjectService.GetById(p.ProjectId).Name;
 
+                //                    pvm.User_Id = p.UserId;
+                //pvm.UserName = MyUserService.GetById(p.UserId).UserName;
+
+                lists.Add(pvm);
+                //}
             }
-
-            return View(Comments);
-        }*/
-
-
-
-
+            return View(lists);
+        }
 
 
 
@@ -511,7 +560,7 @@ namespace  IdentityV2.Presentation.Controllers
 
 
     }
-}
+    }
 
 
 

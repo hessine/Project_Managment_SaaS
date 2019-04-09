@@ -11,14 +11,21 @@ namespace IdentityV2.Service
 {
     public interface ITaskPMService : IService<TaskPM>
     {
-        IEnumerable<TaskPM> GetTaskPMavailable();
-        IEnumerable<TaskPM> GetTaskPMWaiting();
+        IEnumerable<TaskPM> GetTaskPMDone();
+        IEnumerable<TaskPM> GetTaskPMDoing();
+        IEnumerable<TaskPM> GetTaskPMToDo();
+
         IEnumerable<TaskPM> SearchTasks(string ch);
 
         IEnumerable<TaskPM> USERbyRole();
-        IEnumerable<TaskPM> GetTaskPMToDo();
-        IEnumerable<TaskPM> GetTaskPMDoing();
-        IEnumerable<TaskPM> GetTaskPMDone();
+
+        int GetTotalTasks();
+        int NbTaskByStatusToDo();
+        int NbTaskByStatusDoing();
+        int NbTaskByStatusDone();
+        int FinishTaskEarly();
+        IEnumerable<TaskPM> ReturnFinishTaskEarly();
+        int nbrTaskInProject();
 
 
     }

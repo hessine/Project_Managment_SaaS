@@ -45,8 +45,9 @@ namespace IdentityV2.Presentation.Models
         
         public string UserName { get; set; }
         //nestha9ouha fil index affichage autre attribut de l id x
-
+        public int nbttotaltask { get; set; }
 
         
+
     }
 }

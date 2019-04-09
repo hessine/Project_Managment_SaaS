@@ -10,7 +10,7 @@ using IdentityV2.ServicePattern;
 
 namespace IdentityV2.Service
 {
-   public  class CommentService : Service<Comment>, ICommentService
+    public class CommentService : Service<Comment>, ICommentService
     {
         private static IDataBaseFactory dbFac = new DataBaseFactory();
         private static IUnitOfWork wow = new UnitOfWork(dbFac);
@@ -30,13 +30,26 @@ namespace IdentityV2.Service
             listr = GetMany().ToList();
             //  DateTime date = DateTime.Now;
             IEnumerable<Comment> resultjoin3 = (from d in listPro
-                               join r in listr
-                              on d.TaskId equals r.TaskId
-                               //  where (d.DateBegin <= date && d.DateEnd >= date)
-                               select (r));
+                                                join r in listr
+                                               on d.TaskId equals r.TaskId
+                                                //  where (d.DateBegin <= date && d.DateEnd >= date)
+                                                select (r));
 
-            return resultjoin3; 
+            return resultjoin3;
+
+        }
+
+        public IEnumerable<Comment> getCommentPerTask(int id)
+        {
+            // return wow.getRepository<Comment>().GetMany().Where(p => p.TaskId == id).ToList();
+            return wow.getRepository<Comment>().GetMany().Where(p => p.TaskId == id).ToList();
+
+
 
         }
     }
-}
+
+
+
+
+    }

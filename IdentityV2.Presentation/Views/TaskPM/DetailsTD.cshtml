@@ -92,16 +92,11 @@
 
     <span class="text">@Html.DisplayFor(model => model.ProjectDesc)</span>
     <div class="form-group ">
-        <div class="col-lg-10">
-            <textarea class="form-control " id="tt" name="comment" placeholder="Write Something Here....." required></textarea>
-        </div>
+       
     </div>
 
-
-    <div id="Comments">
-
-        @Html.Action("GetComments", new { TaskId = Model.TaskId });
-    </div>
+   
+    
 
     <hr />
     <!--   <div class="staff-msg"><a onclick=showskills() class="btn btn-primary">Show Project Skills</a>
@@ -110,6 +105,15 @@
 <br />
 <!-- ... -->
 
+<div class="container">
+    <br />
+
+    <p>Your Note</p>
+    <form onsubmit="return false;">
+        <textarea rows="3" placeholder="Your Note" id="Body" v-model="comment.Body" class="form-control"></textarea>
+        <button class="btn btn-success" v-on:click="submit_comment()">save</button>
+    </form>
+</div>
 <p>
     @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
     @Html.ActionLink("Back to List", "Index")
