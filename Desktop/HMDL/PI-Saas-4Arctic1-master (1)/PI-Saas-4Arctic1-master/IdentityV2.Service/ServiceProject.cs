@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using IdentityV2.Data.Infrastructure;
+using System.Collections;
 
 namespace IdentityV2.Service
 {
@@ -16,6 +17,9 @@ namespace IdentityV2.Service
         public ServiceProject() : base(utk)
         {
         }
+
+       
+
         public IEnumerable<Project> GetProjectavailable()
         {
             return GetMany(t => t.Etat == 1).OfType<Project>();
@@ -44,5 +48,20 @@ namespace IdentityV2.Service
             return GetMany().Count();
 
         }
+
+
+        //H
+        public IEnumerable<Project> GetAllProjects()
+        {
+            return utk.getRepository<Project>().GetMany().ToList();
+        }
+
+        public IEnumerable<Project> GetNameById(int id)
+        {
+            //  string ch =
+            return  utk.getRepository<Project>().GetMany(p => p.ProjectId == id).ToList();
+           
+        }
+   
     }
 }

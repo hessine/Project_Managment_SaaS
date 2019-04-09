@@ -155,6 +155,17 @@ namespace IdentityV2.Service
         {
             throw new NotImplementedException();
         }
+
+
+        //hessine
+
+        public IEnumerable<TaskPM> getTasksPerProject(int id)
+        {
+            return wow.getRepository<TaskPM>().GetMany().Where(p => p.ProjectId == id).ToList();
+        }
+
+
+      
     }
 
 

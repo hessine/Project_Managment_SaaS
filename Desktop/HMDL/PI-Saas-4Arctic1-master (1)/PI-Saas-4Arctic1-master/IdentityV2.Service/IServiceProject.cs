@@ -13,5 +13,7 @@ namespace IdentityV2.Service
         IEnumerable<Project> GetProjectWaiting();
         IEnumerable<Project> GetProjectavailable();
         int GetTotalProjects();
+        IEnumerable<Project> GetAllProjects();
+        IEnumerable<Project> GetNameById(int id);
     }
 }

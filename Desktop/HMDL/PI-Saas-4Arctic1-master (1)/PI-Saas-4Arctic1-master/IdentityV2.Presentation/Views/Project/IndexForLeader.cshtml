@@ -1,16 +1,16 @@
 ﻿@model IEnumerable<IdentityV2.Presentation.Models.ProjectViewModel>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "IndexForLeader";
     Layout = "~/Views/Shared/_MyTemplatepage.cshtml";
 }
+
+
 
 <p>
     @Html.ActionLink("Convert View To PDF", "PrintViewToPdf")
 </p>
-
 <h2>Available projects :</h2>
-
 <div class="form-group form-focus">
     <label class="control-label">Search Project</label>
     <input type="text" class="form-control floating" id="search" />
@@ -32,11 +32,9 @@
         <th>
             Resources
         </th>
-        
 
         <th></th>
     </tr>
-
     @foreach (var item in Model)
     {
         <tr class="search">
@@ -52,51 +50,10 @@
             <td>
                 @Html.DisplayFor(modelItem => item.DateEnd)
             </td>
-
             <td>
                 @Html.DisplayFor(modelItem => item.TotalNbrRessources)
-            </td>
-            
-
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.ProjectId }) |
-                @Html.ActionLink("Details", "Details", new { id = item.ProjectId }) |
-                @Html.ActionLink("Delete", "Delete", new { id = item.ProjectId })|
-                @Html.ActionLink("View-Task", "IndexProject", new { id = item.ProjectId })
-
-
             </td>
         </tr>
     }
 
 </table>
-<div class="form-group form-focus">
-    @Html.ActionLink("Go to Categories", "Index", "Category")
-</div>
-
-
-
-<div class="form-group form-focus">
-    @Html.ActionLink("Go to Documents", "Index", "Document")
-</div>
-
-<script>
-    $(document).ready(function () {
-        function Contains(text1,text2){
-            if(text1.indexOf(text2)!=-1)
-                return true;
-        }
-        $("#search").keyup(function()
-        {
-            var searchText = $("#search").val().toLowerCase();
-            $(".search").each(function () {
-                if (!Contains($(this).text().toLowerCase(), searchText)) {
-                    $(this).hide();
-                }
-                else {
-                    $(this).show();
-                }
-                });
-        });
-    });
-</script>

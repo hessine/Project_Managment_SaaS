@@ -451,6 +451,13 @@
     <Content Include="Views\TaskPM\TaskPMToDO.cshtml" />
     <Content Include="Views\TaskStatistics\IndexforManager.cshtml" />
     <Content Include="Views\TaskStatistics\MoreInfoforManager.cshtml" />
+    <Content Include="Views\TaskPM\IndexProject.cshtml" />
+    <Content Include="Views\Project\IndexProject.cshtml" />
+    <Content Include="Views\TaskPM\IndexforManager.cshtml" />
+    <Content Include="Views\Project\IndexForLeader.cshtml" />
+    <Content Include="Views\TaskPM\TaskPMToDOManager.cshtml" />
+    <Content Include="Views\TaskPM\TaskPMDoingManager.cshtml" />
+    <Content Include="Views\TaskPM\TaskPMDoneManager.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

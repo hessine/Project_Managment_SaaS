@@ -34,6 +34,11 @@ namespace IdentityV2.Presentation.Models
         [DisplayName("Upload file")]
         public string ImagePath { get; set; }
         public HttpPostedFileBase ImageFile { get; set; }
-      
+
+
+        public int nbrTotalPr { get; set; }
+        public String nom { get; set; }
+
+
     }
 }

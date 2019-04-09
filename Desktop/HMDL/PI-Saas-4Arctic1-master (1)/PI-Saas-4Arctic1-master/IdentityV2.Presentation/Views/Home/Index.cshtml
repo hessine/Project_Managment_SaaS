@@ -6,7 +6,7 @@
     Layout = "~/Views/Shared/_MyTemplatepage.cshtml";
 }
 
-
+  
 
 <div class="page-wrapper">
     <div class="content container-fluid">
@@ -17,6 +17,8 @@
                     <div class="dash-widget-info">
                         <h3>@Html.DisplayFor(model => model.nbrTotalPr)</h3>
                         <span>Projects</span>
+                        |  @Html.ActionLink("All-Project", "Index", "Project")  |
+
                     </div>
                 </div>
             </div>

@@ -13,7 +13,7 @@ namespace IdentityV2.Presentation.Controllers
 {
     public class ProjectController : Controller
     {
-        ServiceProject ps = new ServiceProject();
+        IServiceProject ps = new ServiceProject();
        
         CategoryService sc = new CategoryService();
         
@@ -303,14 +303,102 @@ namespace IdentityV2.Presentation.Controllers
             return report;
         }
 
+        //Hessine
+       // public ActionResult AllProject()
+        //{
+           /* IServiceProject MyPro =new  ServiceProject();
+            ProjectViewModel pvm = new ProjectViewModel();
+
+            //Pour le nbr totale de project
+            //var MytotalProject = MyPro.GetTotalProjects();
+
+           // pvm.nbrTotalPr = MytotalProject;
+            List<ProjectViewModel> lists = new List<ProjectViewModel>();
+            foreach (var p in MyPro.GetAllProjects()) 
+            {
+
+                pvm.ProjectId = p.ProjectId;
+                pvm.Name = p.Name;
+                pvm.Picture = p.Picture;
+                pvm.Adress = new Adress { Address = p.Address.Address, Country = p.Address.Country, ZipCode = p.Address.ZipCode, Latitude = p.Address.Latitude, Longitude = p.Address.Longitude };
+                pvm.DateBegin = p.DateBegin;
+                pvm.DateEnd = p.DateEnd;
+                pvm.TotalNbrRessources = p.TotalNbrRessources;
+
+                pvm.Description = p.Description;
+                lists.Add(pvm);
+
+            }
+            return View(lists);*/
+       // }
+
+
+
+
+        //********************************Hessine******************************************
+        public ActionResult IndexProject(int id)
+        {
+            //  public Task<ActionResult> Index(string searchString)
+
+            // var user = UserManager.FindByIdAsync(System.Web.HttpContext.Current.User.Identity.GetUserId());
+            // user.Id
+
+            //   string currentUserId = User.Identity.GetUserId();
+            ITaskPMService MyTaskService =new  TaskPMService();
+            List<TaskPMVM> lists = new List<TaskPMVM>();
+            foreach (var p in MyTaskService.getTasksPerProject(id))
+            {
+                //if (currentUserId == p.leader)
+                //{
+                TaskPMVM pvm = new TaskPMVM();
+                pvm.TaskId = p.TaskId;
+                pvm.Name = p.Name;
+                pvm.StartDate = p.StartDate;
+                pvm.EndDate = p.EndDate;
+                pvm.Status = p.Status;
+                pvm.DeadLine = p.DeadLine;
+                //  pvm.ProjectId = p.ProjectId;
+
+                // pvm.ProjectName = MyProjectService.GetById(p.ProjectId).Name;
+
+                //                    pvm.User_Id = p.UserId;
+                //pvm.UserName = MyUserService.GetById(p.UserId).UserName;
+
+                lists.Add(pvm);
+                //}
+            }
+            return View(lists);
+        }
+
+
+
+
+        //for Leader when he will list project
+
+        public ActionResult IndexForLeader()
+        {
+            List<ProjectViewModel> lists = new List<ProjectViewModel>();
+            foreach (var p in ps.GetProjectavailable())
+            {
+                ProjectViewModel pvm = new ProjectViewModel();
+                pvm.ProjectId = p.ProjectId;
+                pvm.Name = p.Name;
+                pvm.Picture = p.Picture;
+                pvm.Adress = new Adress { Address = p.Address.Address, Country = p.Address.Country, ZipCode = p.Address.ZipCode, Latitude = p.Address.Latitude, Longitude = p.Address.Longitude };
+                pvm.DateBegin = p.DateBegin;
+                pvm.DateEnd = p.DateEnd;
+                pvm.TotalNbrRessources = p.TotalNbrRessources;
+
+                pvm.Description = p.Description;
+                lists.Add(pvm);
+
+            }
+            return View(lists);
+        }
+
+
+
     }
 
-
-
-
-
-
-
-       
 
 }

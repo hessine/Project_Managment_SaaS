@@ -157,22 +157,42 @@
 
                             </ul>
                         </li>
+
+@if (this.User.IsInRole("Manager"))
+{
                         <li class="submenu">
 
                             <a href="#" class="noti-dot"><span>Projects</span> <span class="menu-arrow"></span></a>
                             <ul class="list-unstyled" style="display: none;">
-@if (this.User.IsInRole("Manager"))
-{
+
                                 <li>@Html.ActionLink("Add Project", "Create", "Project")</li>
-}
+
                                 <li>@Html.ActionLink("List Projects", "Index", "Project")</li>
-@if (this.User.IsInRole("Manager"))
-{
+
 
                                 <li>@Html.ActionLink("Waiting Project", "Listwaitingproject", "Project")</li>
-}
+
                             </ul>
                         </li>
+}
+
+
+
+                        @if (this.User.IsInRole("TeamLeader"))
+                        {
+                            <li class="submenu">
+
+                                <a href="#" class="noti-dot"><span>Projects</span> <span class="menu-arrow"></span></a>
+                                <ul class="list-unstyled" style="display: none;">
+ 
+                                    <li>@Html.ActionLink("List Projects", "IndexForLeader", "Project")</li>
+  
+                                </ul>
+                            </li>
+                        }
+
+
+
 
                         <li class="submenu">
                             <a href="#" class="noti-dot"><span>Resources</span> <span class="menu-arrow"></span></a>
@@ -182,29 +202,36 @@
                             </ul>
                         </li>
                      
-
+@if (this.User.IsInRole("TeamLeader"))
+{
                         <li class="submenu">
                             <a href="#" class="noti-dot"><span> Tasks</span> <span class="menu-arrow"></span></a>
                             <ul class="list-unstyled" style="display: none;">
                                 <li>@Html.ActionLink("All Tasks", "Index", "TaskPM")></li>
-@if (this.User.IsInRole("TeamLeader"))
-{
                                 <li>@Html.ActionLink("Add Task", "Create", "TaskPM")></li>
-}
-
-
-
-
                                 <li>@Html.ActionLink("Task Done", "TaskPMDone", "TaskPM")</li>
-                              
-                                    <li>@Html.ActionLink("Task Doing", "TaskPMDoing", "TaskPM")</li>
+                                <li>@Html.ActionLink("Task Doing", "TaskPMDoing", "TaskPM")</li>
                              <li>@Html.ActionLink("Task To-Do", "TaskPMToDO", "TaskPM")</li>
-
-
-
                                 <li>@Html.ActionLink("Calender", "Index", "Event")></li>
                             </ul>
                         </li>
+}
+
+
+                        @if (this.User.IsInRole("Manager"))
+                        {
+                            <li class="submenu">
+                                <a href="#" class="noti-dot"><span> Tasks</span> <span class="menu-arrow"></span></a>
+                                <ul class="list-unstyled" style="display: none;">
+                                    <li>@Html.ActionLink("All Tasks", "IndexforManager", "TaskPM")></li>
+                                  
+                                    <li>@Html.ActionLink("Task Done", "TaskPMDoneManager", "TaskPM")</li>
+                                    <li>@Html.ActionLink("Task Doing", "TaskPMDoingManager", "TaskPM")</li>
+                                    <li>@Html.ActionLink("Task To-Do", "TaskPMToDOManager", "TaskPM")</li>
+                                    <li>@Html.ActionLink("Calender", "Index", "Event")></li>
+                                </ul>
+                            </li>
+                        }
 
 
                     <li class="submenu">

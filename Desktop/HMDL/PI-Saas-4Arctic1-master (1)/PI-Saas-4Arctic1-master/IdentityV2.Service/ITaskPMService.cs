@@ -25,8 +25,11 @@ namespace IdentityV2.Service
         int NbTaskByStatusDone();
         int FinishTaskEarly();
         IEnumerable<TaskPM> ReturnFinishTaskEarly();
-        int nbrTaskInProject();
 
+        //Hessine
+        int nbrTaskInProject();
+        IEnumerable<TaskPM> getTasksPerProject(int id);
+        //
 
     }
 }

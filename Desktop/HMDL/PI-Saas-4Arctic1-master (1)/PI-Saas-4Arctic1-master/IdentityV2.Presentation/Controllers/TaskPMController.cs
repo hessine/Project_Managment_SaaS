@@ -144,7 +144,7 @@ namespace IdentityV2.Presentation.Controllers
 
         // POST: TaskPM/Create
         [HttpPost]
-        [Authorize(Roles = "TeamLeader")]
+        //[Authorize(Roles = "TeamLeader")]
         public ActionResult Create(TaskPMVM taskVM)
         {
 
@@ -178,7 +178,7 @@ namespace IdentityV2.Presentation.Controllers
             MyTaskService.Add(t1);
             MyTaskService.Commit();
 
-            MailMessage mail = new MailMessage("nada.ghazouani@esprit.tn", "ghazouaninada02@gmail.com", "Task pret", "Mr/Mme" + "" + NameOfcurrentUser + "" + "votre Task est maitenant assigné a un developpeur");
+            MailMessage mail = new MailMessage("nada.ghazouani@esprit.tn", "ghazouaninada02@gmail.com", "Task pret"+ taskVM.Name, "Mr/Mme"+"" + "" + NameOfcurrentUser + " " + "votre Task" + taskVM.Name + "est maitenant assigné a un developpeur"+ taskVM.UserName);
             // MailMessage mail = new MailMessage();
             mail.IsBodyHtml = true;
             SmtpClient smtpClient = new SmtpClient("Smtp.gmail.com", 587);
@@ -374,6 +374,47 @@ namespace IdentityV2.Presentation.Controllers
 
 
         //for manager
+
+
+        public ActionResult IndexforManager(string searchString)
+        {
+            //  public Task<ActionResult> Index(string searchString)
+
+            // var user = UserManager.FindByIdAsync(System.Web.HttpContext.Current.User.Identity.GetUserId());
+            // user.Id
+
+            //string currentUserId = User.Identity.GetUserId();
+
+
+
+            List<TaskPMVM> lists = new List<TaskPMVM>();
+            foreach (var p in MyTaskService.SearchTasks(searchString))
+            {
+                //if (currentUserId == p.leader)
+                //{
+                    TaskPMVM pvm = new TaskPMVM();
+                    pvm.TaskId = p.TaskId;
+                    pvm.Name = p.Name;
+                    pvm.StartDate = p.StartDate;
+                    pvm.EndDate = p.EndDate;
+                    pvm.Status = p.Status;
+                    pvm.DeadLine = p.DeadLine;
+                    pvm.ProjectId = p.ProjectId;
+
+                    pvm.ProjectName = MyProjectService.GetById(p.ProjectId).Name;
+
+                    pvm.User_Id = p.UserId;
+                    pvm.UserName = MyUserService.GetById(p.UserId).UserName;
+
+                    lists.Add(pvm);
+               // }
+            }
+            return View(lists);
+        }
+
+
+
+
         public ActionResult TaskPMToDOManager()
         {
             //string currentUserId = User.Identity.GetUserId();
@@ -479,6 +520,46 @@ namespace IdentityV2.Presentation.Controllers
             return View(lists);
 
         }
+
+
+        //Hessine
+        public ActionResult IndexProject(int id)
+        {
+            //  public Task<ActionResult> Index(string searchString)
+
+            // var user = UserManager.FindByIdAsync(System.Web.HttpContext.Current.User.Identity.GetUserId());
+            // user.Id
+
+         //   string currentUserId = User.Identity.GetUserId();
+         
+            List<TaskPMVM> lists = new List<TaskPMVM>();
+            foreach (var p in MyTaskService.getTasksPerProject(id))
+            {
+                //if (currentUserId == p.leader)
+                //{
+                    TaskPMVM pvm = new TaskPMVM();
+                    pvm.TaskId = p.TaskId;
+                    pvm.Name = p.Name;
+                    pvm.StartDate = p.StartDate;
+                    pvm.EndDate = p.EndDate;
+                    pvm.Status = p.Status;
+                    pvm.DeadLine = p.DeadLine;
+                  //  pvm.ProjectId = p.ProjectId;
+
+                   // pvm.ProjectName = MyProjectService.GetById(p.ProjectId).Name;
+
+//                    pvm.User_Id = p.UserId;
+                    //pvm.UserName = MyUserService.GetById(p.UserId).UserName;
+
+                    lists.Add(pvm);
+                //}
+            }
+            return View(lists);
+        }
+
+
+
+
 
 
     }
