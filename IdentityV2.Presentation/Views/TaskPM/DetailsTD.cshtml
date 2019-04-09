@@ -110,9 +110,42 @@
 
     <p>Your Note</p>
     <form onsubmit="return false;">
-        <textarea rows="3" placeholder="Your Note" id="Body" v-model="comment.Body" class="form-control"></textarea>
-        <button class="btn btn-success" v-on:click="submit_comment()">save</button>
+        <textarea rows="3" placeholder="Your Note" id="cc" v-model="comment.Body" class="form-control"></textarea>
+        <button class="btn btn-success" onclick="addComment(@Model.TaskId)">save</button>
     </form>
 </div>
-
+<div id="div1">
+    @Html.Action("GetComments", new { TaskId = Model.TaskId })
 </div>
+</div>
+
+@section Scripts{
+<script>
+
+    function addComment(idTask) {
+        function getContent() {
+            return document.getElementById("cc").value
+        }
+            
+       
+        var tt = document.getElementById("cc").value;
+               
+        if (tt == "") {
+            window.alert("un commentairene peut pas etre vide ");
+        }
+        else {
+            $.ajax({
+                url: '@Url.Action("PostComment", "TaskPM")' + "?Text=" + tt + "&TaskId=" + idTask,
+                type: "POST",
+                success: function (result) {
+                    $('#div1').append(result);
+                    $("#cc").val("");
+                }
+
+            })
+        }
+                    
+
+    }
+</script>
+    }

@@ -1,0 +1,26 @@
+﻿@model IEnumerable<IdentityV2.Presentation.Models.CommentVM>
+
+
+@*<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CommentId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Text)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TaskId)
+        </th>
+       
+        
+    </tr>*@
+
+@foreach (var item in Model)
+{
+
+    <h3>  @Html.DisplayFor(modelItem => item.Text)</h3>
+
+}
+
+@*</table>*@

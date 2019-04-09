@@ -447,7 +447,7 @@ namespace  IdentityV2.Presentation.Controllers
                 {
                     Comments.Add(new CommentVM()
                     {
-
+                        TaskId=p.TaskId,
                         CommentId = p.CommentId,
                         Text = p.Text
                     });
@@ -461,14 +461,14 @@ namespace  IdentityV2.Presentation.Controllers
 
 
         [HttpPost]
-        public ActionResult PostComment(string Text, int TaskId)
+        public PartialViewResult PostComment(string Text, int TaskId)
         {
 
 
             Comment comment = new Comment()
             {
                 Text = Text,
-                TaskId = TaskId
+                TaskId= TaskId
 
             };
 
@@ -477,7 +477,12 @@ namespace  IdentityV2.Presentation.Controllers
 
 
 
-            return RedirectToAction("Detail");
+            return PartialView("OneComment", new CommentVM
+            {
+                CommentId = comment.CommentId,
+                TaskId = TaskId,
+                Text = Text
+            });
 
         }
 

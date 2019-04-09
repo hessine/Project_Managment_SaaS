@@ -457,6 +457,8 @@
     <Content Include="Views\Event\Create.cshtml" />
     <Content Include="Views\Event\Index.cshtml" />
     <Content Include="Views\TaskPM\ALLCommentByID.cshtml" />
+    <Content Include="Views\Shared\Comments.cshtml" />
+    <Content Include="Views\Shared\OneComment.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
