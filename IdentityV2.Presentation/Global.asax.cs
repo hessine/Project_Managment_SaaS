@@ -20,7 +20,7 @@ namespace IdentityV2.Presentation
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-            StripeConfiguration.SetApiKey(ConfigurationManager.AppSettings["StripeApiSecretKey"]);
+            /*StripeConfiguration.SetApiKey(ConfigurationManager.AppSettings["StripeApiSecretKey"]);*/
         }
     }
 }

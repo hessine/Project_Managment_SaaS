@@ -132,15 +132,12 @@ C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV
 C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.dll
 C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.Domain\bin\Debug\Newtonsoft.Json.dll
-C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.Domain\bin\Debug\Stripe.net.dll
 C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.Domain\bin\Debug\System.Collections.Immutable.dll
 C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.Domain\bin\Debug\EntityFramework.xml
 C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.Domain\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.Domain\bin\Debug\Newtonsoft.Json.xml
-C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.Domain\bin\Debug\Stripe.net.pdb
-C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.Domain\bin\Debug\Stripe.net.xml
 C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.Domain\bin\Debug\System.Collections.Immutable.xml
 C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.Domain\obj\Debug\IdentityV2.Domain.csprojResolveAssemblyReference.cache
 C:\Users\lenovo\Documents\Visual Studio 2015\Projects\PI-Saas-4Arctic1\IdentityV2.Domain\obj\Debug\IdentityV2.Domain.dll

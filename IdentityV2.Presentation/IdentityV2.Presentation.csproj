@@ -57,11 +57,15 @@
       <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="RestSharp, Version=105.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestSharp.105.0.1\lib\net4\RestSharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Rotativa">
       <HintPath>..\..\mappi-narjesBranch111111\WebMap\bin\Rotativa.dll</HintPath>
     </Reference>
-    <Reference Include="Stripe.net, Version=22.8.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stripe.net.22.8.1\lib\net45\Stripe.net.dll</HintPath>
+    <Reference Include="Stripe, Version=1.12.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stripe.1.12.0\lib\net40\Stripe.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />

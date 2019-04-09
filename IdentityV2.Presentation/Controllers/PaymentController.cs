@@ -24,6 +24,8 @@ namespace IdentityV2.Presentation.Controllers
 
         public ActionResult Charge(string stripeEmail, string stripeToken)
         {
+            /*
+            var stripeClient = new Stripe.StripeClient(apiKey);
             var customers = new CustomerService();
             var charges = new ChargeService();
 
@@ -41,7 +43,19 @@ namespace IdentityV2.Presentation.Controllers
                 Currency = "usd",
                 CustomerId = customer.Id
             });
+            */
 
+            string apiKey = "sk_test_tpHTqL3sOQcasnzQxPfBGAkc00G37TbFJ7";
+            var stripeClient = new Stripe.StripeClient(apiKey);
+
+            dynamic response = stripeClient.CreateChargeWithToken(500, stripeToken, "GBP", stripeEmail);
+
+            if (response.IsError == false && response.Paid)
+            {
+                // success
+            }
+
+            /*return View("Payment");*/
             // further application specific code goes here
 
             return View();
