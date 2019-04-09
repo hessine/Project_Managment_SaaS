@@ -1,0 +1,60 @@
+﻿@model IEnumerable<IdentityV2.Presentation.Models.ProjectViewModel>
+
+@{
+    ViewBag.Title = "Listwaitingproject";
+    Layout = "~/Views/Shared/_MyTemplatepage.cshtml";
+}
+
+<h2>Waiting Projects List</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ProjectId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateBegin)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateEnd)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.TotalNbrRessources)
+        </th>
+
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProjectId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateBegin)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateEnd)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalNbrRessources)
+            </td>
+
+            <td>
+                @Html.ActionLink("Accept", "Accept", new { id = item.ProjectId }, new { @class = "btn btn-default" }) |
+                @Html.ActionLink("Decline", "Delete", new { id = item.ProjectId }, new { @class = "btn btn-default" })
+            </td>
+        </tr>
+    }
+
+</table>
