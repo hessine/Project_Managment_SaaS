@@ -121,6 +121,7 @@ C:\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\Newtonsoft.Json.xml
 C:\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\Stripe.net.pdb
 C:\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\Stripe.net.xml
 C:\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\System.Collections.Immutable.xml
-C:\IdentityV2.Presentation-nada\IdentityV2.Domain\obj\Debug\IdentityV2.Domain.csprojResolveAssemblyReference.cache
 C:\IdentityV2.Presentation-nada\IdentityV2.Domain\obj\Debug\IdentityV2.Domain.dll
 C:\IdentityV2.Presentation-nada\IdentityV2.Domain\obj\Debug\IdentityV2.Domain.pdb
+C:\IdentityV2.Presentation-nada\IdentityV2.Domain\bin\Debug\Newtonsoft.Json.pdb
+C:\IdentityV2.Presentation-nada\IdentityV2.Domain\obj\Debug\IdentityV2.Domain.csprojResolveAssemblyReference.cache

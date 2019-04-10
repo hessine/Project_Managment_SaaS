@@ -152,3 +152,5 @@ C:\IdentityV2.Presentation-nada\IdentityV2.ServicePattern\bin\Debug\Microsoft.As
 C:\IdentityV2.Presentation-nada\IdentityV2.ServicePattern\obj\Debug\IdentityV2.ServicePattern.csprojResolveAssemblyReference.cache
 C:\IdentityV2.Presentation-nada\IdentityV2.ServicePattern\obj\Debug\IdentityV2.ServicePattern.dll
 C:\IdentityV2.Presentation-nada\IdentityV2.ServicePattern\obj\Debug\IdentityV2.ServicePattern.pdb
+C:\IdentityV2.Presentation-nada\IdentityV2.ServicePattern\bin\Debug\IdentityV2.ServicePattern.dll.config
+C:\IdentityV2.Presentation-nada\IdentityV2.ServicePattern\bin\Debug\Newtonsoft.Json.pdb

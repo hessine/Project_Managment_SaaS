@@ -21,6 +21,7 @@ namespace IdentityV2.Presentation
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             StripeConfiguration.SetApiKey(ConfigurationManager.AppSettings["StripeApiSecretKey"]);
+            GlobalFilters.Filters.Add(new HandleErrorAttribute());
         }
     }
 }

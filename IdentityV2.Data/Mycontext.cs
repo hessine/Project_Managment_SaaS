@@ -12,7 +12,7 @@ namespace IdentityV2.Data
     public class MyContext : IdentityDbContext<User>//
     {
 
-        public MyContext() : base("MyConnection")
+        public MyContext() : base("manel")
         {
             Database.SetInitializer(new ContexInit());
         }

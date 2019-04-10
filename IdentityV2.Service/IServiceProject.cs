@@ -12,5 +12,6 @@ namespace IdentityV2.Service
     {
         IEnumerable<Project> GetProjectWaiting();
         IEnumerable<Project> GetProjectavailable();
+        List<Project> getProjects();
     }
 }

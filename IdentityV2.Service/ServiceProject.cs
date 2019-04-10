@@ -25,5 +25,14 @@ namespace IdentityV2.Service
         {
             return GetMany(t => t.Etat == 0).OfType<Project>();
         }
+
+
+        public List<Project> getProjects()
+        {
+            IEnumerable<Project> m = (from Projects in utk.GetRepositoryBase<Project>().GetAll()
+                                        select Projects);
+            List<Project> list = m.ToList<Project>();
+            return list;
+        }
     }
 }

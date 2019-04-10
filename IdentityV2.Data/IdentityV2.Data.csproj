@@ -46,8 +46,8 @@
       <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Stripe.net, Version=22.8.1.0, Culture=neutral, processorArchitecture=MSIL">
@@ -81,17 +81,9 @@
     <Compile Include="Infrastructure\IUnitOfWork.cs" />
     <Compile Include="Infrastructure\RepositoryBase.cs" />
     <Compile Include="Infrastructure\UnitOfWork.cs" />
-    <Compile Include="Migrations\201904071100240_new.cs" />
-    <Compile Include="Migrations\201904071100240_new.Designer.cs">
-      <DependentUpon>201904071100240_new.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201904080933141_new1.cs" />
-    <Compile Include="Migrations\201904080933141_new1.Designer.cs">
-      <DependentUpon>201904080933141_new1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201904081038112_dd.cs" />
-    <Compile Include="Migrations\201904081038112_dd.Designer.cs">
-      <DependentUpon>201904081038112_dd.cs</DependentUpon>
+    <Compile Include="Migrations\201904081524192_amine.cs" />
+    <Compile Include="Migrations\201904081524192_amine.Designer.cs">
+      <DependentUpon>201904081524192_amine.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Mycontext.cs" />
@@ -112,14 +104,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201904071100240_new.resx">
-      <DependentUpon>201904071100240_new.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201904080933141_new1.resx">
-      <DependentUpon>201904080933141_new1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201904081038112_dd.resx">
-      <DependentUpon>201904081038112_dd.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201904081524192_amine.resx">
+      <DependentUpon>201904081524192_amine.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

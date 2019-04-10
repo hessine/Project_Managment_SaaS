@@ -15,6 +15,7 @@ namespace IdentityV2.Presentation
         {
             ConfigureAuth(app);
             CreateRolesandUsers();
+            app.MapSignalR();
         }
 
         private void CreateRolesandUsers()

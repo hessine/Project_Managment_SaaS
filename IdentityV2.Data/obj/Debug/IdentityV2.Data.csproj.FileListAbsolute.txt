@@ -176,9 +176,8 @@ C:\IdentityV2.Presentation-nada\IdentityV2.Data\bin\Debug\Stripe.net.pdb
 C:\IdentityV2.Presentation-nada\IdentityV2.Data\bin\Debug\Stripe.net.xml
 C:\IdentityV2.Presentation-nada\IdentityV2.Data\bin\Debug\System.Collections.Immutable.xml
 C:\IdentityV2.Presentation-nada\IdentityV2.Data\obj\Debug\IdentityV2.Data.csprojResolveAssemblyReference.cache
-C:\IdentityV2.Presentation-nada\IdentityV2.Data\obj\Debug\IdentityV2.Data.Migrations._new.resources
-C:\IdentityV2.Presentation-nada\IdentityV2.Data\obj\Debug\IdentityV2.Data.Migrations.new1.resources
-C:\IdentityV2.Presentation-nada\IdentityV2.Data\obj\Debug\IdentityV2.Data.Migrations.dd.resources
+C:\IdentityV2.Presentation-nada\IdentityV2.Data\obj\Debug\IdentityV2.Data.Migrations.amine.resources
 C:\IdentityV2.Presentation-nada\IdentityV2.Data\obj\Debug\IdentityV2.Data.csproj.GenerateResource.Cache
 C:\IdentityV2.Presentation-nada\IdentityV2.Data\obj\Debug\IdentityV2.Data.dll
 C:\IdentityV2.Presentation-nada\IdentityV2.Data\obj\Debug\IdentityV2.Data.pdb
+C:\IdentityV2.Presentation-nada\IdentityV2.Data\bin\Debug\Newtonsoft.Json.pdb

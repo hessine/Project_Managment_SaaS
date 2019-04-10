@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+
+</head>
+<body>
+
+
+    <table cellpadding="2" cellspacing="2" border="1">
+
+        <tr>
+
+            <th>Id</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>DateBegin</th>
+            <th>DateEnd</th>
+            
+        </tr>
+
+
+        @foreach (var p in ViewBag.result)
+        {
+            <tr>
+                <td>@p.ProjectId</td>
+                <td>@p.Name</td>
+                <td>@p.Description</td>
+                <td>@p.DateBegin</td>
+                <td>@p.DateEnd</td>
+               
+
+
+
+            </tr>
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+    </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>

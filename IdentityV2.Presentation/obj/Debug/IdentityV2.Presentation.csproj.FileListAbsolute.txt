@@ -735,7 +735,11 @@ C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\bin\Newtonsoft.Json.dll
 C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\bin\Owin.dll
 C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\bin\Stripe.net.dll
 C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\bin\System.Collections.Immutable.dll
+C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\bin\System.Net.Http.dll
+C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\bin\System.Net.Http.Extensions.dll
 C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\bin\System.Net.Http.Formatting.dll
+C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\bin\System.Net.Http.Primitives.dll
+C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\bin\System.Net.Http.WebRequest.dll
 C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\bin\System.Web.Helpers.dll
 C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\bin\System.Web.Http.dll
 C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\bin\System.Web.Http.WebHost.dll
@@ -754,6 +758,8 @@ C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\bin\Microsoft.CodeDom.Pr
 C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\bin\Newtonsoft.Json.xml
 C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\bin\Stripe.net.pdb
 C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\bin\Stripe.net.xml
+C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\bin\System.Net.Http.xml
+C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\bin\System.Net.Http.WebRequest.xml
 C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\bin\System.Web.Helpers.xml
 C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\bin\System.Web.Mvc.xml
 C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\bin\System.Web.Optimization.xml
@@ -762,7 +768,6 @@ C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\bin\System.Web.WebPages.
 C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\bin\System.Web.WebPages.Deployment.xml
 C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\bin\System.Web.WebPages.Razor.xml
 C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\bin\Antlr3.Runtime.pdb
-C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\bin\System.Net.Http.Formatting.xml
 C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\bin\System.Web.Http.xml
 C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\bin\System.Web.Http.WebHost.xml
 C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\bin\EntityFramework.xml
@@ -782,3 +787,8 @@ C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\bin\Microsoft.Owin.Secur
 C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\obj\Debug\IdentityV2.Presentation.csprojResolveAssemblyReference.cache
 C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\obj\Debug\IdentityV2.Presentation.dll
 C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\obj\Debug\IdentityV2.Presentation.pdb
+C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\IdentityV2.Presentation-nada\IdentityV2.Presentation\bin\Newtonsoft.Json.pdb
