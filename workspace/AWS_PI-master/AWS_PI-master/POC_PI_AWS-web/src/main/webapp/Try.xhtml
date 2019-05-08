@@ -1,0 +1,54 @@
+
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+xmlns:f="http://java.sun.com/jsf/core"
+xmlns:h="http://java.sun.com/jsf/html"
+xmlns:ui="http://java.sun.com/jsf/facelets"
+template="Template.xhtml">
+<ui:define name="title"> Gestion des Categories :</ui:define>
+    <ui:define name="content">
+<h:form>
+<h:dataTable value="#{categoryBean.geeeettttetAllTasks()}" var="category" border="1">
+			<h:column>
+				<f:facet name="header">
+					<h:outputText value="CatID" />
+				</f:facet>
+				<h:outputText value="#{category.catId}" />
+			</h:column>
+			<h:column>
+				<f:facet name="header">
+					<h:outputText value="CatName" />
+				</f:facet>
+				<h:outputText value="#{category.catName}" />
+			</h:column>
+			<h:column>
+				<f:facet name="header">
+					<h:outputText value="Action" />
+				</f:facet>
+				<h:commandButton action="#{categoryBean.supprimerssss(category.catId)}"
+					value="supprimer" />
+					<h:commandButton action="#{categoryBean.modifier(category)}"
+					value="Modifier" />
+				
+			</h:column>
+		</h:dataTable>
+		
+		
+		
+		<h:panelGrid columns="2">
+			<h:outputText value="name" />
+			<h:inputText value="#{categoryBean.catName}" />
+
+			
+			<h:commandButton action="#{categoryBean.addCategory()}"
+				value="Ajouter categorie" />
+			<h:commandButton action="#{categoryBean.mettreAjourEmploye()}"
+				value="MettreAjour" />
+		</h:panelGrid>
+		</h:form>
+	</ui:define>
+
+</ui:composition>
+
+
+    
+

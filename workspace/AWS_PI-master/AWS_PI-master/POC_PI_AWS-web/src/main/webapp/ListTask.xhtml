@@ -1,0 +1,103 @@
+
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+xmlns:f="http://java.sun.com/jsf/core"
+xmlns:h="http://java.sun.com/jsf/html"
+xmlns:ui="http://java.sun.com/jsf/facelets"
+      template="Template.xhtml">
+
+<ui:define name="title"> Gestion des task :</ui:define>
+    <ui:define name="content">
+<h:form>
+<h:dataTable value="#{taskConBean.allTasks}" var="cp" id="tab">
+		
+		
+		
+                  	<h:column>
+				<f:facet name="header">
+					<h:outputText value="Task Id" />
+				</f:facet>
+				<h:outputText value="#{cp.taskId}" />
+			</h:column>
+                  
+                  
+                  
+					<h:column >
+				   <f:facet name="header" class="warning">
+                    <h:outputText value="name" />
+                     </f:facet>
+				     <h:outputText value="#{cp.name}" />
+				   </h:column>
+				   <h:column >
+				   <f:facet name="header" class="warning">
+                    <h:outputText value="project name" />
+                     </f:facet>
+				     <h:outputText value="#{cp.projectName}" />
+				   </h:column>
+					   <h:column >
+				   <f:facet name="header" class="warning">
+                    <h:outputText value="endDate" />
+                     </f:facet>
+				     <h:outputText value="#{cp.endDate}" />
+				   </h:column>
+				
+								   <h:column >
+				   <f:facet name="header" class="warning">
+                    <h:outputText value="deadline" />
+                     </f:facet>
+				     <h:outputText value="#{cp.deadLine}" />
+				   </h:column>
+							   <h:column >
+				   <f:facet name="header" class="warning">
+                    <h:outputText value="start date" />
+                     </f:facet>
+				     <h:outputText value="#{cp.startDate}" />
+				   </h:column>
+				
+				
+				<h:column >
+				   <f:facet name="header" class="warning">
+                    <h:outputText value="status" />
+                     </f:facet>
+				     <h:outputText value="#{cp.status}" />
+				   </h:column>
+				
+					<h:column>
+				<f:facet name="header">
+					<h:outputText value="Action" />
+				</f:facet>
+				<h:commandButton action="#{taskConBean.DeleteTask(cp.taskId)}"
+					value="supprimer" />
+					<h:commandButton action="#{taskConBean.modifier(cp)}"
+					value="Modifier" />
+				
+			</h:column>
+
+		</h:dataTable>
+		
+		
+		<h:panelGrid columns="2">
+			<h:outputText value="name" />
+			<h:inputText value="#{taskConBean.name}" />
+
+			<h:outputText value="StartDate" />
+			<h:inputText value="#{taskConBean.startDate}" />
+			
+			<h:outputText value="EndDate" />
+			<h:inputText value="#{taskConBean.endDate}" />
+
+			
+
+			
+			
+			<h:commandButton action="#{taskConBean.doAddTask()}"
+				value="Ajouter Task" />
+			<h:commandButton action="#{taskConBean.mettreAjourTask()}"
+				value="MettreAjour" />
+		</h:panelGrid>
+		
+		
+		
+		</h:form>
+	</ui:define>
+
+</ui:composition>
